@@ -2,7 +2,6 @@
 layout: post
 title: "Смена цветовой схемы Emacs по времени восхода и захода солнца"
 date: 2013-04-11 11:09
-comments: true
 categories: emacs runix
 description: "Переключение дневной и ночной цветовой схемы в Emacs"
 keywords: emacs, GNU Emacs, color-theme, цветовые схемы

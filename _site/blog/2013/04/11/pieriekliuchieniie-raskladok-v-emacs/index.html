@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Переключение раскладок в Emacs |  Unix Way</title>
+        <link rel="stylesheet" href="/style.css" />
+        <meta name="description" content="Пишу про Mac OS X, Android, iOS, Emacs, Веб-разработку, свободное ПО и т.д."/>
+        <meta name="author" content="Paul Elms"/>
+        <link rel="author" href="humans.txt"/>
+        <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="http://feeds.feedburner.com/vyazovoi" />
+    </head>
+
+    <body>
+        <header>
+            <hgroup>
+            <h1><a href="/">Unix Way</a></h1>
+                <h4>Пишу про Mac OS X, Android, iOS, Emacs, Веб-разработку, свободное ПО и т.д.</h4>
+            </hgroup>
+			<nav>
+	<ul>
+		<li><a href="/">Об авторе</a></li>
+		<li><a href="/blog">Блог</a></li>
+		<li><a href="/blog/archives">Архив</a></li>
+	</ul>
+</nav>
+
+<div style="float: right;">
+	<a href="https://twitter.com/vyazovoi" class="twitter-follow-button" data-show-count="false" data-lang="ru">Читать @vyazovoi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+            <hr />
+        </header>
+		
+		<div style="position: absolute; right: 0; top: 0;"><img style="width: 150px;" src="/images/under_construction.gif"></div>
+
+        <main>
+
+            <article>
+        <header>
+            <h2>Переключение раскладок в Emacs</h2>
+            <span><time datetime="2013-04-11">Apr 11, 2013</time></span>, <span class="author"> Paul Elms</span>, Категории: <span class="category"> emacs </span>
+        </header>
+
+        <div class="entry"><p><strong>UPD:</strong> перепост старой заметки в новый блог, планирую обновлять и поддерживать в актуальном состоянии</p>
+<p>Последнее обновление: Среда, 10. Март 2010</p>
+
+      <p>Описание проблемы: при переключении на не-латинскую раскладку клавиатуры в Emacs не работают горячие клавиши. Также не запоминается своя раскладка для каждого буфера Emacs.</p>
+
+      <p>Варианты решения проблемы:
+
+        <ul>
+          <li>Продублировать все горячие клавиши для нужной раскладки и отказаться от
+          отдельной для каждого буфера раскладки (плохой выход из ситуации).</li>
+          <li>Использовать встроенную в Emacs переключалку (то, что нам нужно).</li>
+        </ul>
+      </p>
+
+      <!--more-->
+
+      <p>По умолчанию цикличное переключение раскладок в Emacs работает по комбинации C-\<br />
+        Очевидно, вы пожелаете настроить в Emacs клавиатурное сочетание для переключения раскладок как в xorg, и тут появляется проблема номер 2:</p>
+
+      <p>Xorg не передает приложению нажатие клавиш, которыми он переключает раскладку. К тому же нет возможности настроить игнорирование иксорговской переключалкой конкретного приложения. Для решения этой проблемы ранее предлагали использовать патченный xxkb, который переключал раскладку в окне Emacs всегда на латиницу и передавал окну нужные клавиатурные сочетания. Как показала практика - работает это решение не всегда и глючит, поэтому появились следующие, более корректные решения этой проблемы:</p>
+
+
+      <p>
+        <ul>
+          <li>Хороший человек с псевдонимом Akshaal написал программку, а другой хороший
+          человек с псевдонимом Bzek доработал её. К сожалению, все ссылки на описание
+          этого метода померли, поэтому я переношу эту информацию сюда (см. ниже). Этот
+          метод имеет свои недостатки, но я пользуюсь именно им. Суть метода сводится к
+          переключению раскладок сторонней программой, которая сама определяет окно Emacs
+          и отправляет ему нужное сочетание клавиш вместо переключения раскладки.</li>
+          <li>Использовать для переключения языков альтернативный метод ввода
+          ibus (scim). Достаточно отключить его в Emacs и клавиатурные сочетания, которые вы
+          настроили в ibus (scim), будут обрабатываться в Emacs. Описание тоже ниже.</li>
+        </ul>
+      </p>
+
+      <p><h3>Настраиваем ibus (scim)</h3></p>
+
+      <p>
+        <ol>
+          <li>Устанавливаем scim, scim-m17n и scim-tables (для ibus сами определяйтесь, не
+          пользуюсь им). Последние два включают в себя
+          приличное количество раскладок клавиатуры для различных языков.</li>
+          <li>Прописываем в профиль переменные среды:
+
+            Для scim:
+
+            <pre><code>
+export XMODIFIERS=@im=SCIM
+export GTK_IM_MODULE=xim
+export QT_IM_MODULE=xim
+            </code></pre>
+
+            Для ibus видимо будет как-то так:
+
+            <pre><code>
+export GTK_IM_MODULE=ibu
+export QT_IM_MODULE=ibu
+            </code></pre>
+
+          </li>
+          <li>Отключаем ibus (scim) в Emas, для этого пишем в .Xdefaults:
+
+            <pre><code>Emacs*useXIM:false</code></pre>
+
+            (не знаю правда, как тут с ibus; если кто-то знает - пишите мне)
+
+          </li>
+          <li>Запускаем scim-setup и настраиваем всё что нужно. Останавливаться на этом не
+          буду - если не разберетесь, то можете спросить в xmpp-конференции
+          emacs@conference.jabber.ru.</li>
+          <li>Настраиваем в Emacs обработку этих сочетаний клавиш. Например так:
+
+            <div>
+  <pre><code class='cl'>(global-set-key (kbd &quot;C-1&quot;)
+		(lambda ()
+		  (inactivate-input-method)))
+(global-set-key (kbd &quot;C-2&quot;)
+		(lambda ()
+		  (set-input-method &#39;russian-computer)))</code></pre>
+</div>
+
+
+          </li>
+        </ol></p>
+
+      <p>Вы можете добавить сюда переключение словаря flyspell, например. Или настроить
+        цикличное переключение, в этом вам поможет функция toggle-input-method.</p>
+
+      <p><h3>Использование emxkb</h3></p>
+
+      <p>Замечание к этому методу: с его помощью нельзя настроить раскладку на цикличное
+      переключение (хотя, можно просто модифицировать программу). У меня, например,
+      группа "us" включается по нажатию C-1, а "ru" - C-2.</p>
+
+      <p>Первое, что нам понадобится - программа emxkb. Её нужно <a href="/files/emxkb.c">скачать</a> и скомпилировать
+      вот так:</p>
+
+        <p><pre><code>
+gcc -L/usr/X11R6/lib -lX11 -o emxkb emxkb.c
+        </code></pre></p>
+
+      <p>При выполнении emxkb 0 раскладка переключается на первую группу, emxkb 1 -
+      вторую и т.д. Если же значение WM_CLASS текущего окна равно "emacs", то вместо
+      переключения групп emxkb шлёт нажатие виртуальных клавиш F31, F32, F33 и
+      т.д. Остается только обрабатывать эти нажатия в emacs.</p>
+
+      <p>Итак, вы уже настроили в своём wm (или xbindkeys) какие-либо сочетания клавиш на
+      выполнение комманд emxkb 0 и emxkb 1. Но ещё не все готово для настройки
+      emacs. Дело в том, что клавиш F31, F32 и т.д. не существует и нужно их виртуально
+      "создать" с помощью xmodmap:</p>
+
+      <p><pre><code>
+keycode 431=F31
+keycode 432=F32
+keycode 433=F33
+      </code></pre></p>
+
+      <p>431, 432, 433 можно заменить на любые другие свободные кейкоды.</p>
+
+      <p>Теперь можно настраивать emacs:</p>
+
+      <p><div>
+  <pre><code class='cl'>(defun reset-flyspell-with-new-dict (dict)
+  &quot;Set new dictionary and restart flyspell&quot;
+
+  (unless (equal dict ispell-local-dictionary)
+    (setq ispell-local-dictionary dict)
+    (when flyspell-mode
+      (flyspell-mode)
+      (flyspell-mode)))
+
+  (when flyspell-mode
+    (save-excursion
+      (flyspell-region (window-start) (window-end))))
+
+  (message nil))
+
+(global-set-key [(f31)]
+                (lambda ()
+                  (interactive)
+                  ;; (reset-flyspell-with-new-dict &quot;american&quot;)
+                  (inactivate-input-method)))
+
+(global-set-key [(f32)]
+                (lambda ()
+                  (interactive)
+                  ;; (reset-flyspell-with-new-dict &quot;russian&quot;)
+                  (set-input-method &#39;russian-computer)))
+
+(global-set-key [(f33)]
+                (lambda ()
+                  (interactive)
+                  ;; (reset-flyspell-with-new-dict &quot;italian&quot;)
+                  (set-input-method &#39;italian-keyboard)))
+
+
+(defun toggle-specified-isearch-input-method (new-input-method)
+  &quot;Toggle specified input method in interactive search.&quot;
+  (interactive)
+  (let ((overriding-terminal-local-map nil)))
+
+  (if (eq new-input-method &#39;default-method)
+      (inactivate-input-method)
+    (set-input-method new-input-method))
+
+  (setq isearch-input-method-function input-method-function
+	isearch-input-method-local-p t)
+  (setq input-method-function nil)
+  (isearch-update))
+
+
+(add-hook &#39;isearch-mode-hook
+          (lambda ()
+            (define-key isearch-mode-map (kbd &quot;&lt;f31&gt;&quot;)
+              (lambda ()
+                (interactive)
+                (toggle-specified-isearch-input-method &#39;default-method)))
+
+            (define-key isearch-mode-map (kbd &quot;&lt;f32&gt;&quot;)
+              (lambda ()
+                (interactive)
+                (toggle-specified-isearch-input-method &#39;russian-computer)))
+
+            (define-key isearch-mode-map (kbd &quot;&lt;f33&gt;&quot;)
+              (lambda ()
+                (interactive)
+                (toggle-specified-isearch-input-method &#39;italian-keyboard)))))</code></pre>
+</div>
+</p>
+
+      <p>Внимательно (или не очень) изучите приведенный кусок кода на elisp и настройте
+      его под свои нужды.</p>
+
+      <p>P.S. Если у вас что-то не получилось, <strike>вы можете найти меня в конференции
+        emacs@conference.jabber.ru</strike>. Приветствуются любые дополнения и правки к статье.<br />
+        P.P.S. Для консольной версии Emacs проблема всё ещё актуальна.</p></div>
+		
+		<div class="comments">    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'paulelms'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+        <footer><!-- additional info --></footer>
+
+</article>
+
+        </main>
+
+        <footer>
+            <hr />
+            <p>&copy; <time>2013</time> Paul Elms</p>
+        </footer>
+		
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26844854-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </body>
+
+</html>

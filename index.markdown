@@ -4,7 +4,7 @@ layout: default
 description: "Страничка Вязового Павла. Заметки про Mac OS X, Android, свободное ПО, iOS и не только."
 keywords: "Павел Вязовой, Pavel Vyazovoi, Paul Elms, opensource, Свободное ПО, linux, android, macosx, osx, apple, ios, webdev, web development, emacs"
 ---
-<img src="/images/photo.jpg" alt="Фото" title="Фото" style="float: right;">
+<img src="/images/photo.jpg" alt="Фото" title="Фото" style="float: right; margin: 0 0 30px 30px; width: 200px;">
   
 _&laquo;Если тебе дадут линованную бумагу, пиши поперек&raquo;  
 &copy; эпиграф к роману &laquo;451&deg; по Фаренгейту&raquo;_

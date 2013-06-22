@@ -2,7 +2,7 @@
 name: Unix Way
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: "Блог про Mac OS X, iOS, свободное ПО, GNU Emacs, экосистемы Google и Apple"
+description: "Пишу про Mac OS X, Android, iOS, Emacs, Веб-разработку, свободное ПО и т.д."
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Paul Elms
@@ -35,8 +35,8 @@ markdown: rdiscount
 auto: true
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
-permalink: pretty
-#permalink: /blog/:year/:month/:day/:title/
+#permalink: pretty
+permalink: /blog/:year/:month/:day/:title/
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: README.md

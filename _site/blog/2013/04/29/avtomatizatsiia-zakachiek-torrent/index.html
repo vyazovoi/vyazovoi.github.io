@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Автоматизация загрузки торрентов в Mac OS X |  Unix Way</title>
+        <link rel="stylesheet" href="/style.css" />
+        <meta name="description" content="Пишу про Mac OS X, Android, iOS, Emacs, Веб-разработку, свободное ПО и т.д."/>
+        <meta name="author" content="Paul Elms"/>
+        <link rel="author" href="humans.txt"/>
+        <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="http://feeds.feedburner.com/vyazovoi" />
+    </head>
+
+    <body>
+        <header>
+            <hgroup>
+            <h1><a href="/">Unix Way</a></h1>
+                <h4>Пишу про Mac OS X, Android, iOS, Emacs, Веб-разработку, свободное ПО и т.д.</h4>
+            </hgroup>
+			<nav>
+	<ul>
+		<li><a href="/">Об авторе</a></li>
+		<li><a href="/blog">Блог</a></li>
+		<li><a href="/blog/archives">Архив</a></li>
+	</ul>
+</nav>
+
+<div style="float: right;">
+	<a href="https://twitter.com/vyazovoi" class="twitter-follow-button" data-show-count="false" data-lang="ru">Читать @vyazovoi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+            <hr />
+        </header>
+		
+		<div style="position: absolute; right: 0; top: 0;"><img style="width: 150px;" src="/images/under_construction.gif"></div>
+
+        <main>
+
+            <article>
+        <header>
+            <h2>Автоматизация загрузки торрентов в Mac OS X</h2>
+            <span><time datetime="2013-04-29">Apr 29, 2013</time></span>, <span class="author"> Paul Elms</span>, Категории: <span class="category"> MacOSX Tips'n'Tricks Обзоры </span>
+        </header>
+
+        <div class="entry"><p><img src="/images/post/transmission_torrent.png" alt="transmission" style="float:right; width: 150px; margin: 0 0 15px 15px;" /></p>
+
+<p>В Mac OS X есть ровно два популярных bittorrent-клиента: <a href="http://www.transmissionbt.com" title="Transmission">Transmission</a> и <a href="http://www.utorrent.com" title="uTorrent">uTorrent</a>. Причем, на мой взгляд, Transmission заметно лучше, чем uTorrent.</p>
+
+<p>Под автоматизацией я имею ввиду отслеживание появления интересующих нас закачек и скачивание без нашего участия.</p>
+
+<p>Для того чтобы организовать такой процесс в торрент-клиентах реализована поддержка специальных RSS-лент с magnet-ссылками или торрент-файлами в виде вложений.<br/>
+uTorrent поддерживает RSS из коробки, а transmission придется обучать. Обо всём по порядку...</p>
+
+<!--more-->
+
+
+<h2>Откуда брать RSS-ленту</h2>
+
+<p>Первым закономерно возникает вопрос - откуда можно брать rss-ленту со всеми интересующими нас закачками. И тут я предложу два замечательных варианта:</p>
+
+<h3>Listen Trackers</h3>
+
+<p>Сервис <a href="http://litr.cc" title="Listen Trackers">Listen Trackers</a> -- настоящее открытие для меня. Он может отслеживать раздачи на основных торрент-трекерах и отдавать вам в виде RSS-ленты. Причем можно качать даже с тех трекеров, где у вас нет регистрации, т.к. <a href="http://litr.cc" title="Listen Trackers">Listen Trackers</a> выгружает magnet-ссылки вместе с torrent-файлами. Кроме того, можно получать уведомления со ссылками на почту.</p>
+
+<p><img src="/images/post/screen-litr.png" alt="litr.cc добавление раздачи" /></p>
+
+<p>Этот сервис может отслеживать как обновления существующих раздач (новые серии сериалов), так и новые раздачи по ключевым словам. Например, задаём ключевые слова "Название фильма", "1080p", "720p" и в исключения заносим "Trailer", "Трейлер" и ждем появления любимого фильма на одном из трекеров.</p>
+
+<p>Существующие раздачи для отслеживания можно добавить в сервис с помощью браузерных плагинов, букмарклета или вручную.</p>
+
+<h3>Soap4.me</h3>
+
+<p><a href="http://soap4.me/">Этот сервис</a> тоже ценная находка. Здесь собственный трекер и собственная коллекция сериалов. Можно подписываться на новые серии и получать их по RSS. Кроме того, сервис имеет платную подписку, включающую дополнительные функции, такие как доставка сериалов непосредственно в iTunes.</p>
+
+<h3>RSS-лента любимого трекера</h3>
+
+<p>У многих торрент-трекеров есть собственные RSS-ленты с вложениями.</p>
+
+<h2>Как качать</h2>
+
+<p>Клиент <a href="http://www.utorrent.com" title="uTorrent">uTorrent</a> имеет встроенную поддержку RSS-лент и на нём останавливаться нет смысла. Но, как я уже сказал, мне больше нравится <a href="http://www.transmissionbt.com" title="Transmission">Transmission</a>. Он умеет организовывать закачки по категориям автоматически, убирать за собой (удалять torrent-файлы после добавления), а вот RSS -- не умеет. Не беда, научим.</p>
+
+<h3>Automatic ($19.95)</h3>
+
+<p>Решение в духе Mac OS X - дорогое, но качественное.</p>
+
+<p>Устанавливается в качестве панели настроек. Задаются адреса фидов, фильтры, все новые закачки попадают в transmission. Всё очень просто и даже говорить тут не о чем.</p>
+
+<p><img src="/images/post/screen-automatic.png" alt="Скриншот Automatic" />
+<img src="/images/post/screen-automatic2.png" alt="Скриншот Automatic" /></p>
+
+<h3>Путь ниндзя</h3>
+
+<p>Есть целая тонна скриптов на python, ruby и других интерпретируемых языках, которые умеют качать торренты из фидов и добавлять в transmission. Причем, даже не обязательно в transmission, можно просто складывать в какую-нибудь директорию, из которой transmission будет сам забирать торрент-файлы.</p>
+
+<p>Я просто оставлю это здесь:</p>
+
+<ul>
+<li><a href="http://code.google.com/p/rssdler/">скрипт на python</a></li>
+<li><a href="http://tvshowsapp.com">TVShows 2</a> -- не разбирался, но выглядит как бесплатная замена Automatic</li>
+<li><a href="https://github.com/sebastianperruolo/torrent-rss-client/wiki/Install">скрипт</a> на java</li>
+<li>популярный но сложный <a href="http://flexget.com">flexget</a></li>
+<li><a href="http://hints.macworld.com/article.php?story=20090428080912741">описание решения</a> на Automator, прислал <a href="https://twitter.com/veiman">@veiman</a></li>
+</ul>
+
+
+<p>Я буду рад получить в комментариях ссылки на другие способы автоматизировать закачки, т.к. сам всегда нахожусь в поиске наиболее оптимальных методов решать свои задачи. Интересные дополнения вынесу в пост с указанием авторства.</p>
+</div>
+		
+		<div class="comments">    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'paulelms'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+        <footer><!-- additional info --></footer>
+
+</article>
+
+        </main>
+
+        <footer>
+            <hr />
+            <p>&copy; <time>2013</time> Paul Elms</p>
+        </footer>
+		
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26844854-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </body>
+
+</html>

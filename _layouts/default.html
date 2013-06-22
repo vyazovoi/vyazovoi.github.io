@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
-        <meta name="description" content="{{site.description}}"/>
-        <meta name="author" content="{{site.author}}"/>
-        <link rel="author" href="humans.txt"/>
-        <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="http://feeds.feedburner.com/vyazovoi" />
-    </head>
+{% include head.html %}
 
     <body>
         <header>
@@ -16,8 +8,11 @@
             <h1><a href="{{site.baseurl}}/">{{ site.name }}</a></h1>
                 <h4>{{ site.description }}</h4>
             </hgroup>
+			{% include nav.html %}
             <hr />
         </header>
+		
+		<div style="position: absolute; right: 0; top: 0;"><img style="width: 150px;" src="/images/under_construction.gif"></div>
 
         <main>
 
@@ -29,6 +24,8 @@
             <hr />
             <p>&copy; <time>2013</time> {{ site.author }}</p>
         </footer>
+		
+		{% include ga.html %}
 
     </body>
 

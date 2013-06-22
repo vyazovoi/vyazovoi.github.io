@@ -1,0 +1,13 @@
+# TEAM
+
+    Pavel Vyazovoi aka Paul Elms -- @vyazovoi
+	Marina Elms -- @marina_elms
+
+# TECHNOLOGY
+
+    HTML5, CSS3, Jekyll, Ruby
+	
+# SITE
+
+	Language: Russian
+	Dev. Tools: Textmate 2, SourceTree, iTerm2

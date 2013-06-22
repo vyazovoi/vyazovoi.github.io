@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> История о том, как я чуть не сменил платформу для блога |  Unix Way</title>
+        <link rel="stylesheet" href="/style.css" />
+        <meta name="description" content="Пишу про Mac OS X, Android, iOS, Emacs, Веб-разработку, свободное ПО и т.д."/>
+        <meta name="author" content="Paul Elms"/>
+        <link rel="author" href="humans.txt"/>
+        <link rel="alternate" type="application/rss+xml" title="Atom Feed" href="http://feeds.feedburner.com/vyazovoi" />
+    </head>
+
+    <body>
+        <header>
+            <hgroup>
+            <h1><a href="/">Unix Way</a></h1>
+                <h4>Пишу про Mac OS X, Android, iOS, Emacs, Веб-разработку, свободное ПО и т.д.</h4>
+            </hgroup>
+			<nav>
+	<ul>
+		<li><a href="/">Об авторе</a></li>
+		<li><a href="/blog">Блог</a></li>
+		<li><a href="/blog/archives">Архив</a></li>
+	</ul>
+</nav>
+
+<div style="float: right;">
+	<a href="https://twitter.com/vyazovoi" class="twitter-follow-button" data-show-count="false" data-lang="ru">Читать @vyazovoi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+            <hr />
+        </header>
+		
+		<div style="position: absolute; right: 0; top: 0;"><img style="width: 150px;" src="/images/under_construction.gif"></div>
+
+        <main>
+
+            <article>
+        <header>
+            <h2>История о том, как я чуть не сменил платформу для блога</h2>
+            <span><time datetime="2013-05-04">May 04, 2013</time></span>, <span class="author"> Paul Elms</span>, Категории: <span class="category"> runix Markdown Обзоры MacOSX iOS </span>
+        </header>
+
+        <div class="entry"><p><img src="/images/post/writing.jpg" alt="writing" style="width: 200px; float: right; margin: 0 0 15px 15px;" /></p>
+
+<p><em>Сегодня я менял платформу для блога, но в процессе переноса заметок и настройки блога я передумал. Далее следует текст заметки, которую я уже было написал в новый блог. Почему я остался на octopress -- в конце заметки.</em></p>
+
+<p>Вчера вечером я лежал перед сном в кровати, читал твиттер на телефоне, и пришла мне в голову мысль дополнить одну заметку новой информацией. Для этого мне нужно было встать, включить компьютер, отредактировать запись в octopress и сделать деплоймент на github. Слишком сложно.</p>
+
+<!--more-->
+
+
+<p>У меня на телефоне уже был <a href="http://www.iawriter.com/">iA Writer</a> -- замечательный редактор markdown-текстов, который умеет работать с файлами в icloud и dropbox. Как было бы здорово просто открыть нужную заметку в iA Writer, отредактировать, сохранить, и … и всё! Я решил погуглить и нагуглил несколько готовых решений, среди которых был и <a href="http://scriptogr.am/">Scriptogram</a>, на который я сегодня и мигрировал.</p>
+
+<p>Scriptogram -- блог-платформа, которая использует markdown-файлы из dropbox для публикации блога. Конечно, возможностей у неё куда меньше чем у octopress, с которым можно творить что угодно. Но как же это удобно -- просто редактировать посты в iA Writer и всё, никаких лишних действий и зависимости от большого компьютера.</p>
+
+<p>Записи в Scriptogram не публикуются сами по себе -- думаю, это сделано во избежание попадания черновиков в блог. Несмотря на то, что для предотвращения публикации есть специальная переменная -- "Published: false", для деплоймента надо нажать кнопку "синхронизировать" в веб-интерфейсе. Но у Scriptogram есть API, позволяющий публиковать из приложения. Поддержка этого API есть в <a href="http://mouapp.com">Mou</a> - неплохом редакторе markdown для Mac OS X.</p>
+
+<p>Думаю, у кого-нибудь возникнет вопрос, почему я не выбрал <a href="https://www.tumblr.com">Tumblr</a>. В его мобильном клиенте можно отправлять пост в markdown, но после отправки он в одностороннем порядке преобразуется в html. Это не удобно. В случае Scriptogram -- я работаю с исходными markdown-файлами в любом удобном редакторе.</p>
+
+<p>На данный момент дизайн и навигация этого блога -- "что под руку попалось", над этим я буду работать позже.</p>
+
+<p><a href="http://scriptogr.am"><img src="/images/post/scriptogram.png" alt="writing" /></a></p>
+
+<hr />
+
+<h3>И все-таки, почему я не перешёл на Scriptogram…</h3>
+
+<p>Во-первых, у меня так и не получилось опубликовать эту заметку. Вот эту, которая выше по тексту. Синтаксис правильный, заметка в админке Scriptogram присутствует, а в блоге не публикуется, хоть ты тресни. Ни ошибок тебе, ничего.</p>
+
+<p>Во-вторых, ощущение ненадежности сервиса на этом не закончилось. Один альтернативный сервис однажды закрылся (уже не помню какой именно), а Scriptogram давно не обновлялся. Платность сервиса -- вопрос времени, но в случае неудачи его постигнет судьба других закрытых проектов. С octopress и github такое не произойдет.</p>
+
+<p>В-третьих, возможности очень и очень ограничены -- не хватает liquid extensions и других возможностей jekyll.</p>
+
+<p>Я по-прежнему хотел бы сменить платформу для блога на такую, с которой можно было бы работать полностью с телефона. Есть такие варианты:</p>
+
+<ul>
+<li><a href="http://calepin.co">Calepin</a> - нет вообще никакой кастомизации. Абсолютно никак не настраивается внешний вид блога</li>
+<li><a href="http://www.markbox.io">Markbox</a> - жду инвайт</li>
+<li><a href="http://skrivr.com">Skrivr</a> - выглядит интересно, жду инвайт</li>
+</ul>
+
+
+<p>Если у кого-нибудь ещё есть идеи, я очень рад буду увидеть их в комментариях.</p>
+</div>
+		
+		<div class="comments">    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'paulelms'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+        <footer><!-- additional info --></footer>
+
+</article>
+
+        </main>
+
+        <footer>
+            <hr />
+            <p>&copy; <time>2013</time> Paul Elms</p>
+        </footer>
+		
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26844854-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </body>
+
+</html>

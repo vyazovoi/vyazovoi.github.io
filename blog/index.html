@@ -1,29 +1,24 @@
 ---
 layout: default
 ---
+<!-- Show last 5 posts here -->
+{% for post in site.posts limit: 5  %}
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+	<article>
+
+        <header>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+        </header>
+		
+		{% if post.content contains '<!--more-->' %}
+			<div class="entry">{{ post.content | split:'<!--more-->' | first }}</div>
+		{% else %}
+		    <div class="entry">{{ post.content }}</div>
+		{% endif %}
+		
+		{% if post.content contains '<!--more-->' %}<div style="margin: 0 auto; width: 400px; padding: 5px; border: 1px solid black; text-align: center;"><a href="{{site.baseurl}}{{post.url}}">Читать полностью >>></a></div>{% endif %}
+
+	</article>
+{% endfor %}
+
+<div style="margin: 30px auto; padding: 10px; border: 1px solid black; text-align: center;"><a href="{{site.baseurl}}/blog/archives/">Остальные записи</a></div>
