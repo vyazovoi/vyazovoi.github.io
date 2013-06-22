@@ -1,4 +1,4 @@
 vyazovoi.github.io
 ==================
 
-blog
+[БЛОГ](http://paule.elms.pro)
