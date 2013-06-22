@@ -7,7 +7,7 @@ layout: default
 	<article>
 
         <header>
-            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+            <h2><a href="{{site.url}}{{post.url}}">{{ post.title }}</a></h2>
         </header>
 		
 		{% if post.content contains '<!--more-->' %}
@@ -16,9 +16,9 @@ layout: default
 		    <div class="entry">{{ post.content }}</div>
 		{% endif %}
 		
-		{% if post.content contains '<!--more-->' %}<div style="margin: 0 auto; width: 400px; padding: 5px; border: 1px solid black; text-align: center;"><a href="{{site.baseurl}}{{post.url}}">Читать полностью >>></a></div>{% endif %}
+		{% if post.content contains '<!--more-->' %}<div style="margin: 0 auto; width: 400px; padding: 5px; border: 1px solid black; text-align: center;"><a href="{{site.url}}{{post.url}}">Читать полностью >>></a></div>{% endif %}
 
 	</article>
 {% endfor %}
 
-<div style="margin: 30px auto; padding: 10px; border: 1px solid black; text-align: center;"><a href="{{site.baseurl}}/blog/archives/">Остальные записи</a></div>
+<div style="margin: 30px auto; padding: 10px; border: 1px solid black; text-align: center;"><a href="{{site.url}}/blog/archives/">Остальные записи</a></div>
