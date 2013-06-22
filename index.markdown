@@ -1,12 +1,8 @@
 ---
 title: Paul Elms
-layout: page
-comments: false
-sharing: false
-footer: false
+layout: default
 description: "Страничка Вязового Павла. Заметки про Mac OS X, Android, свободное ПО, iOS и не только."
 keywords: "Павел Вязовой, Pavel Vyazovoi, Paul Elms, opensource, Свободное ПО, linux, android, macosx, osx, apple, ios, webdev, web development, emacs"
-sidebar: false
 ---
 <img src="/images/photo.jpg" alt="Фото" title="Фото" style="float: right;">
   
