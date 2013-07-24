@@ -11,14 +11,12 @@ layout: default
         </header>
 		
 		{% if post.content contains '<!--more-->' %}
-			<div class="entry">{{ post.content | split:'<!--more-->' | first }}</div>
+			<div class="entry">{{ post.content | split:'<!--more-->' | first }} <a href="{{ post.url }}">➜ Читать дальше</a></div>
 		{% else %}
 		    <div class="entry">{{ post.content }}</div>
 		{% endif %}
-		
-		{% if post.content contains '<!--more-->' %}<div style="margin: 0 auto; width: 400px; padding: 5px; border: 1px solid black; text-align: center;"><a href="{{ post.url }}">Читать полностью >>></a></div>{% endif %}
 
 	</article>
 {% endfor %}
 
-<div style="margin: 30px auto; padding: 10px; border: 1px solid black; text-align: center;"><a href="/blog/archives/">Остальные записи</a></div>
+<div style="box-shadow: 0px 3px 5px #444;margin: 30px auto; padding: 10px; border: 1px solid black; text-align: center; width:  50%;"><a href="/blog/archives/">Остальные записи</a></div>

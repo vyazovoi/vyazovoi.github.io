@@ -13,6 +13,10 @@ pre {
     width: 80%;
 }
 
+strong {
+    font-weight: bold;
+}
+
 em {
     font-style: italic;
 }
@@ -86,6 +90,14 @@ ul>li {
     list-style-type: disc;
 }
 
+ol {
+    padding-left: 30px;
+}
+ol>li {
+    display: list-item;
+    list-style-type: decimal;
+}
+
 body>header {
     background-color: #323232;
     padding: 10px 30px 10px 30px;
@@ -155,7 +167,6 @@ article .entry img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
 }
 
 article header span {
@@ -191,4 +202,8 @@ img.icns {
 
 .nowrap {
     white-space: nowrap;
+}
+
+#archive {
+    line-height: 1.5em;
 }

@@ -4,12 +4,15 @@ title: Архив
 ---
 
     <section>
-        <table>
+        <table id="archive">
             {% for post in site.posts %}
             <tr>
-                <td><time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></td>  
+                <td nowrap><time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></td>  
                 <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-                <td><span class="category">{% for category in post.categories %}{{category}} {% endfor %}</span></td>
+                <td class="categories">
+                    {% for category in post.categories %}
+                        <span class="category">{{category}}</span>{% if forloop.last %}{% else %}, {% endif %}
+                    {% endfor %}</td>
             </tr>
     	{% endfor %}
         </table>

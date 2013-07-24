@@ -10,14 +10,13 @@ keywords: emacs, GNU Emacs, color-theme, цветовые схемы
 
 Есть такой пакет для Emacs: [theme-changer](https://github.com/hadronzoo/theme-changer). Он умеет переключать цветовую схему по времени восхода и захода солнца. А настраивается он вот так:
 
-``` common-lisp theme-changer config http://emacswiki.org/emacs/ColorTheme#toc18 emacswiki
-(setq calendar-location-name "Dallas, TX") 
-(setq calendar-latitude 32.85)
-(setq calendar-longitude -96.85)
-
-(require 'theme-changer)
-(change-theme 'color-theme-solarized-light 'color-theme-solarized-dark)
-```
+    common-lisp theme-changer config http://emacswiki.org/emacs/ColorTheme#toc18 emacswiki
+    (setq calendar-location-name "Dallas, TX") 
+    (setq calendar-latitude 32.85)
+    (setq calendar-longitude -96.85)
+    
+    (require 'theme-changer)
+    (change-theme 'color-theme-solarized-light 'color-theme-solarized-dark)
 
 Значения latitude и longitude можно узнать несколькими способами. Во-первых, можно просто тыкнуть в google maps и скопировать координаты. Кроме того можно найти свой город в википедии и там в шаблоне справа будет ссылка на сервис geohack, откуда нужно скопировать координаты в десятичном формате.
 
