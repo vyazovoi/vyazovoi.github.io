@@ -188,3 +188,7 @@ img.icns {
 .clear {
     clear: both;
 }
+
+.nowrap {
+    white-space: nowrap;
+}
