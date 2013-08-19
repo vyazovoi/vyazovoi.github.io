@@ -3,9 +3,9 @@ layout: post
 title: "Автоматизация загрузки торрентов в Mac OS X"
 date: 2013-04-29 11:08
 comments: true
-categories: MacOSX Tips'n'Tricks Обзоры
+categories: OSX Tips'n'Tricks Обзоры
 description: "Автоматизация закачки торрентов из RSS в transmission и utorrent"
-keywords: "torrent, transmission, torrent, bittorrent, торрент, закачки, автоматизация, macosx, apple"
+keywords: "torrent, transmission, torrent, bittorrent, торрент, закачки, автоматизация, macosx, osx, apple"
 ---
 <img src="/images/post/transmission_torrent.png" alt="transmission" style="float:right; width: 150px; margin: 0 0 15px 15px;" />
 

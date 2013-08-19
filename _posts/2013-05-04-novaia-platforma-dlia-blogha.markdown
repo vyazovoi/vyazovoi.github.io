@@ -3,7 +3,7 @@ layout: post
 title: "История о том, как я чуть не сменил платформу для блога"
 date: 2013-05-04 20:25
 comments: true
-categories: runix Markdown Обзоры MacOSX iOS
+categories: runix Markdown Обзоры OSX iOS
 ---
 <img src="/images/post/writing.jpg" alt="writing" style="width: 200px; float: right; margin: 0 0 15px 15px;" />
 
@@ -23,7 +23,7 @@ Scriptogram -- блог-платформа, которая использует 
 
 На данный момент дизайн и навигация этого блога -- "что под руку попалось", над этим я буду работать позже.
 
-<a href="http://scriptogr.am"><img src="/images/post/scriptogram.png" alt="writing" /></a>
+<a href="http://scriptogr.am"><img src="/images/post/scriptogram.png" alt="writing" style="display: block; margin: 0 auto;" /></a>
 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Сравнение и обзор популярных облачных скриншотеров"
 date: 2013-04-15 14:26
-categories: MacOSX Обзоры Windows Linux iOS Android Веб-приложения
+categories: OSX Обзоры Windows Linux iOS Android Веб-приложения
 ---
 <img src ="http://www.iwesoft.com/upload/201206/1339404558229307960.jpg" style="float:right;width: 150px;" />
 

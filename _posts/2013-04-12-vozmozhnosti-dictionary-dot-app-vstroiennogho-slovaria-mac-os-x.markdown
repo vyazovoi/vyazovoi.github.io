@@ -3,7 +3,7 @@ layout: post
 title: "Возможности Dictionary.app - встроенного словаря Mac OS X"
 date: 2013-04-12 16:17
 comments: true
-categories: MacOSX Обзоры Tips'n'Tricks
+categories: OSX Обзоры Tips'n'Tricks
 ---
 <img src="/images/post/dictionary.png" alt="Иконка словаря" title="Dictionary.app" style="float:right">
 Когда я стал работать в Mac OS X, для меня настоящим открытием стал родной словарь этой операционной системы.
