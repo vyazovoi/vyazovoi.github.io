@@ -5,7 +5,7 @@ date: 2013-05-04 20:25
 comments: true
 categories: runix Markdown Обзоры OSX iOS
 ---
-<img src="/images/post/writing.jpg" alt="writing" style="width: 200px; float: right; margin: 0 0 15px 15px;" />
+<img src="/images/articles/old/writing.jpg" alt="writing" style="width: 200px; float: right; margin: 0 0 15px 15px;" />
 
 *Сегодня я менял платформу для блога, но в процессе переноса заметок и настройки блога я передумал. Далее следует текст заметки, которую я уже было написал в новый блог. Почему я остался на octopress -- в конце заметки.*
 
@@ -23,7 +23,7 @@ Scriptogram -- блог-платформа, которая использует 
 
 На данный момент дизайн и навигация этого блога -- "что под руку попалось", над этим я буду работать позже.
 
-<a href="http://scriptogr.am"><img src="/images/post/scriptogram.png" alt="writing" style="display: block; margin: 0 auto;" /></a>
+<a href="http://scriptogr.am"><img src="/images/articles/old/scriptogram.png" alt="writing" style="display: block; margin: 0 auto;" /></a>
 
 ---
 

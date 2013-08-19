@@ -11,9 +11,15 @@ layout: default
         </header>
 		
 		{% if post.content contains '<!--more-->' %}
-			<div class="entry">{{ post.content | split:'<!--more-->' | first }} <a href="{{ post.url }}">➜ Читать дальше</a></div>
+			<div class="entry">
+                {% if post.icon %}<img src="/images/articles/{{ post.icon }}" class="logo" title="{{ post.icon }}" alt="logo" />{% endif %}
+                {{ post.content | split:'<!--more-->' | first }} <a href="{{ post.url }}">➜ Читать дальше</a>
+            </div>
 		{% else %}
-		    <div class="entry">{{ post.content }}</div>
+		    <div class="entry">
+                {% if post.icon %}<img src="/images/articles/{{ post.icon }}" class="logo" title="{{ post.icon }}" alt="logo" />{% endif %}
+                {{ post.content }}
+            </div>
 		{% endif %}
 
 	</article>

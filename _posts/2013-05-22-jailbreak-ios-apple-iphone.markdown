@@ -7,7 +7,7 @@ categories: iOS Обзоры
 description: "Лучшие jailbreak твики для iOS. Стоит ли делать jailbreak iPhone?"
 keywords: "jailbreak, твики, apple, ios, iphone, ipad, ipod, evasion, айфон, джейл, jail"
 ---
-<img src="/images/post/cydia.png" style="float:right; width: 100px;" />
+<img src="/images/articles/old/cydia.png" style="float:right; width: 100px;" />
 
 Твики влияют в худшую сторону на стабильность и производительность iOS - личный опыт. Но они добавляют такие необходимые функции и настройки. Я хочу избавиться от джейла, поэтому решил написать список установленных на моём телефоне твиков и оценить их полезность. Если до моей скромной заметки доберутся люди, знакомые с темой джейлбрейка, я бы хотел выслушать ваше мнение.
 

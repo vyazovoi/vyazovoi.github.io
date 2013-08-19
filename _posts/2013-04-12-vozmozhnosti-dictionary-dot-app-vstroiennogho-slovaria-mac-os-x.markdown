@@ -5,7 +5,7 @@ date: 2013-04-12 16:17
 comments: true
 categories: OSX Обзоры Tips'n'Tricks
 ---
-<img src="/images/post/dictionary.png" alt="Иконка словаря" title="Dictionary.app" style="float:right">
+<img src="/images/articles/old/dictionary.png" alt="Иконка словаря" title="Dictionary.app" style="float:right">
 Когда я стал работать в Mac OS X, для меня настоящим открытием стал родной словарь этой операционной системы.
 
 Различные дистрибутивы Linux приучили меня к тому, что, если встроенный словарь и есть, то от него нет никакого толку. По крайней мере, если ты говоришь на русском языке.

@@ -9,7 +9,7 @@ categories: iOS Обзоры
 ### Appsfire - рекомендации приложений
 
 <div style="float: right; padding: 20px; margin: 10px 0 20px 20px; border: 1px solid #cecece; text-align: center;">
-<a href="https://itunes.apple.com/ru/app/appsfire-besplatno-vasa-dnevnaa/id418295945?mt=8"><img src="/images/post/apps/appsfire.png" style="width: 114" alt="AppsFire логотип" /></a><br />
+<a href="https://itunes.apple.com/ru/app/appsfire-besplatno-vasa-dnevnaa/id418295945?mt=8"><img src="/images/articles/old/appsfire.png" style="width: 114" alt="AppsFire логотип" /></a><br />
 <a href="https://itunes.apple.com/ru/app/appsfire-besplatno-vasa-dnevnaa/id418295945?mt=8">iTunes store</a><br />
 <a href="http://appsfire.com">Оффициальный сайт</a>
 </div>
@@ -26,16 +26,16 @@ categories: iOS Обзоры
 <!--more-->
 <div style="clear:both"></div>
 <div style="text-align: center; margin: 0 auto;">
-<img src="/images/post/apps/screen-appsfire.jpg" alt="appsfire screenshot" style="width: 300px;" />
-<img src="/images/post/apps/screen-appsfire2.jpg" "appsfire screenshot 2" style="width: 300px;" />
+<img src="/images/articles/old/screen-appsfire.jpg" alt="appsfire screenshot" style="width: 300px;" />
+<img src="/images/articles/old/screen-appsfire2.jpg" "appsfire screenshot 2" style="width: 300px;" />
 </div>
 <div style="clear:both"></div>
 
 ### Apps - новости и обзоры
 
 <div style="float: right; padding: 20px; margin: 10px 0 20px 20px; border: 1px solid #cecece; text-align: center;">
-<a href="https://itunes.apple.com/ru/app/apps/id482536811?mt=8"><img src="/images/post/apps/apps.jpg" style="width: 114" alt="Apps логотип" /></a><br />
-<a href="https://itunes.apple.com/ru/app/apps/id482536811?mt=8">iTunes store</a><br />
+<a href="https://itunes.apple.com/ru/app/id482536811?mt=8"><img src="/images/articles/old/apps.jpg" style="width: 114" alt="Apps логотип" /></a><br />
+<a href="https://itunes.apple.com/ru/app/id482536811?mt=8">iTunes store</a><br />
 <a href="http://appsfor.me">Оффициальный сайт</a><br />
 <a href="https://itunes.apple.com/ru/app/apps+/id498936738?mt=8">Apps+</a><br />
 </div>
@@ -46,15 +46,15 @@ categories: iOS Обзоры
 
 <div style="clear:both"></div>
 <div style="text-align: center; margin: 0 auto;">
-<img src="/images/post/apps/screen-apps.jpg" alt="apps screenshot" style="width: 300px;" />
-<img src="/images/post/apps/screen-apps2.jpg" alt="apps screenshot 2" style="width: 300px;" />
+<img src="/images/articles/old/screen-apps.jpg" alt="apps screenshot" style="width: 300px;" />
+<img src="/images/articles/old/screen-apps2.jpg" alt="apps screenshot 2" style="width: 300px;" />
 </div>
 <div style="clear:both"></div>
 
 ### Новый AppShopper - обновления, акции и распродажи
 
 <div style="float: right; padding: 20px; margin: 10px 0 20px 20px; border: 1px solid #cecece; text-align: center;">
-<a href="https://itunes.apple.com/ru/app/appshopper-social/id602522782?mt=8"><img src="/images/post/apps/appshopper.png" style="width: 114" alt="AppShopper логотип" /></a><br />
+<a href="https://itunes.apple.com/ru/app/appshopper-social/id602522782?mt=8"><img src="/images/articles/old/appshopper.png" style="width: 114" alt="AppShopper логотип" /></a><br />
 <a href="https://itunes.apple.com/ru/app/appshopper-social/id602522782?mt=8">iTunes store</a><br />
 <a href="http://appshopper.com">Оффициальный сайт</a>
 </div>
@@ -67,7 +67,7 @@ AppShopper не нуждается в представлении. На сайт�
 
 <div style="clear:both"></div>
 <div style="text-align: center; margin: 0 auto;">
-<img src="/images/post/apps/screen-appshopper.jpg" alt="appshopper screenshot" style="width: 300px;" />
-<img src="/images/post/apps/screen-appshopper.jpg" alt="appshopper screenshot 2" style="width: 300px;" />
+<img src="/images/articles/old/screen-appshopper.jpg" alt="appshopper screenshot" style="width: 300px;" />
+<img src="/images/articles/old/screen-appshopper.jpg" alt="appshopper screenshot 2" style="width: 300px;" />
 </div>
 <div style="clear:both"></div>
