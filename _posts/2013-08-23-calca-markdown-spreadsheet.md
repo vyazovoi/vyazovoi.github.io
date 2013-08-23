@@ -7,7 +7,7 @@ categories: iOS OSX Обзоры
 icon: Calca_icon.png
 ---
 Начну с того, что не смотря на громкий заголовок, никаких таблиц в этой программе нет. Но из-за процесса вычисления сравнивают такой софт зачастую именно с электронными таблицами. Эта новая программа очень похожа на ставший популярным soulver, но с изюминкой. Я большой фанат [KISS](http://ru.wikipedia.org/wiki/KISS_(принцип)) и люблю простые текстовые форматы. В своем рабочем процессе стараюсь использовать формат документов [markdown](http://ru.wikipedia.org/wiki/Markdown). В markdown набирается этот текст, в markdown хранятся заметки, журнал и некоторые документы. А с [Calca](http://www.calca.io/) в markdown можно делать ещё и вычисления. Сейчас я покажу несколько скриншотов и всё станет ясно.
-
+<!--more-->
 ![Calca screen](/images/articles/Calca_1_screen.png)
 ![Calca screen](/images/articles/Calca_2_screen.png)
 ![Calca screen](/images/articles/Calca_3_screen.png)
