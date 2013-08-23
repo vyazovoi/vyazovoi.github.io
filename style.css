@@ -164,6 +164,11 @@ article .entry {
 	padding: 10px;
 }
 
+article .entry img {
+    margin: 0 auto;
+    float: left;
+}
+
 article .entry img.logo {
     float: right;
     margin: 0 0 15px 15px;
