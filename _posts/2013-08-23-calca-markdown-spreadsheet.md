@@ -22,8 +22,8 @@ icon: Calca_icon.png
 
 И она синхронизируется с OS X версией через iCloud.
 
-![Calca iOS screen](/images/articles/Calca_iphone1_screen.png)
-![Calca iOS screen](/images/articles/Calca_iphone2_screen.png)
+![Calca iPhone screen](/images/articles/Calca_iphone1_screen.png)
+![Calca iPhone screen](/images/articles/Calca_iphone2_screen.png)
 
 Таким образом это продвинутые вычисления в обычных документах и заметках. Это очень гибко, удобно и функционально. Любой рабочий лист Calca — обыкновенный документ markdown. Calca можно запускать только для того, чтобы пересчитать все значения в существующем документе, но и собственный редактор хорош. Особой похвалы заслуживает iOS-редактор, т.к. он дополняет стандартную клавиатуру двумя рядами клавиш: цифрами и специальными символами. Правда iOS-версия притормаживает изрядно на больших документах вроде стандартной документации.
 
