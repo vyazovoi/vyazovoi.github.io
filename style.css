@@ -162,6 +162,7 @@ article {
 article .entry {
 	margin-left: 15px;
 	padding: 10px;
+    min-height: 210px;
 }
 
 article .entry img.logo {
