@@ -20,6 +20,6 @@ icon: Feedy_icon.png
 
 В данный момент [Feedy раздается бесплатно](https://itunes.apple.com/ru/app/id588288104) и выглядит он следующим образом:<!--more-->
 
-![Feedy screen](/images/articles/Feedy_1_screen.png "Список записей в Feedy")
+![Feedy screen](https://monosnap.com/image/OG6mPtMvk60nVulFAsTYYUJmk.png "Список записей в Feedy")
 
-![Feedy screen](/images/articles/Feedy_2_screen.png "Чтение поста в Feedy")
+![Feedy screen](https://monosnap.com/image/DmvpLr8OvSv2t0LW1R88P8CIv.png "Чтение поста в Feedy")

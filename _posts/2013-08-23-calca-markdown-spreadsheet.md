@@ -8,11 +8,11 @@ icon: Calca_icon.png
 ---
 Начну с того, что не смотря на громкий заголовок, никаких таблиц в этой программе нет. Но из-за процесса вычисления сравнивают такой софт зачастую именно с электронными таблицами. Эта новая программа очень похожа на ставший популярным soulver, но с изюминкой. Я большой фанат [KISS][kiss] и люблю простые текстовые форматы. В своем рабочем процессе стараюсь использовать формат документов [markdown](http://ru.wikipedia.org/wiki/Markdown). В markdown набирается этот текст, в markdown хранятся заметки, журнал и некоторые документы. А с [Calca](http://www.calca.io/) в markdown можно делать ещё и вычисления. Сейчас я покажу несколько скриншотов и всё станет ясно.
 <!--more-->
-![Calca screen](/images/articles/Calca_osx1_screen.png)
-![Calca screen](/images/articles/Calca_osx2_screen.png)
-![Calca screen](/images/articles/Calca_osx3_screen.png)
-![Calca screen](/images/articles/Calca_osx4_screen.png)
-![Calca screen](/images/articles/Calca_osx5_screen.png)
+![Calca](https://monosnap.com/image/HQxji5m5T3zXDIPm7P8TVqN8i.png)
+![Calca](https://monosnap.com/image/KFtAUQwV9sFdm6EHpcDVblSuW.png)
+![Calca](https://monosnap.com/image/vPUMoJfMRDrs6AWxP1F7wvSJE.png)
+![Calca](https://monosnap.com/image/gbCH1jbTsLLKEFWNVg1fX0IF5.png)
+![Calca](https://monosnap.com/image/VZMQP6hHQkLdYAMKPJeQyoc8Z.png)
 
 ## Приведенными примерами функциональность программы не ограничивается
 
@@ -22,8 +22,8 @@ icon: Calca_icon.png
 
 И она синхронизируется с OS X версией через iCloud.
 
-![Calca iPhone screen](/images/articles/Calca_iphone1_screen.png)
-![Calca iPhone screen](/images/articles/Calca_iphone2_screen.png)
+![Calca iOS](https://monosnap.com/image/sy3qpqkmtFEvW2lW9CwFnMi71.png)
+![Calca iOS](https://monosnap.com/image/x04DMl5dwtg8vnLRhmT3h9q8o.png)
 
 Таким образом это продвинутые вычисления в обычных документах и заметках. Это очень гибко, удобно и функционально. Любой рабочий лист Calca — обыкновенный документ markdown. Calca можно запускать только для того, чтобы пересчитать все значения в существующем документе, но и собственный редактор хорош. Особой похвалы заслуживает iOS-редактор, т.к. он дополняет стандартную клавиатуру двумя рядами клавиш: цифрами и специальными символами. Правда iOS-версия притормаживает изрядно на больших документах вроде стандартной документации.
 
