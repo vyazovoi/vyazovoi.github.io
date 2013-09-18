@@ -209,3 +209,7 @@ img.icns {
 #archive {
     line-height: 1.5em;
 }
+
+article a.screenshot>img {
+    width: 400px;
+}
