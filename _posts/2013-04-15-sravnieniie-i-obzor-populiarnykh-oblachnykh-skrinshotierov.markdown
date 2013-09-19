@@ -120,7 +120,7 @@ Skitch - приложение из семейства Evernote. Сильно о�
 - iOS
 - Android
 
-##Cloud
+##CloudApp
 <img src="http://getcloudapp.com/images/logo.png" style="float:right;width: 150px; margin: 0 0 10px 10px" />
 Обзор для [CloudApp](http://getcloudapp.com) будет позже. Если кратко - это аналог Droplr. У него есть свои интересные особенности, я собираюсь установить его и написать обзор.
 
@@ -139,3 +139,5 @@ Skitch - приложение из семейства Evernote. Сильно о�
 - [Grabbox](http://grabbox.devsoft.no), скриншоты в dropbox для Mac OS X, via [@ptzn](https://twitter.com/ptzn/status/323754002640670722)
 - [Clip2Net](http://clip2net.com/ru/), via [@AlexKru](https://twitter.com/AlexKru)
 - [Glui](http://glui.me), скриншоты с аннотациями в dropbox для Mac OS X, стоит денег и поэтому не выдерживает конкуренции, но мне оно досталось бесплатно по акции
+- [Share Bucket](https://itunes.apple.com/ca/app/share-bucket/id611078158?mt=12)
+- [Clipitto](http://paul.elms.pro/blog/2013/09/19/free-apps/)
