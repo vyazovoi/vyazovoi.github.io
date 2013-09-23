@@ -16,6 +16,7 @@ Daisy Disk, в отличие от ED, визуализирует директо
 3. Более информативный "пирог", как в Daisy Disk.
 
 И, по традиции, скриншот:
+<!--more-->
 
 <a class="screenshot" href="https://www.monosnap.com/image/tfEA6DKw3qDfwYLQnkYqYAWaR.png" rel="screenshot" title="Результаты поиска в ED Large File Finder"><img src="https://www.monosnap.com/image/tfEA6DKw3qDfwYLQnkYqYAWaR.png" alt="ED Large File Finder" /></a>
 
