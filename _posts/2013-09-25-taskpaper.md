@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Про TaskPaper, введение"
+title: "Про TaskPaper, вводный пост"
 comments: true
 categories: OSX iOS Обзоры TaskPaper Workflow Emacs
 icon: TaskPaper_icon.png
