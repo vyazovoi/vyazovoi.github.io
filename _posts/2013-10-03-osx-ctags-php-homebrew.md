@@ -3,7 +3,7 @@ layout: post
 title: "Правильная установка ctags с расширенной поддержкой PHP в OS X"
 date: 2013-10-03 15:09
 comments: true
-categories: OSX PHP
+categories: OSX PHP Emacs runix
 icon: Aquamacs_icon.png
 ---
 На github есть [форк ctags с расширенной поддержкой PHP](https://github.com/zargener/ctags). Скорее всего, мы не скоро дождемся этого в основной ветке, поэтому проще всего установить этот форк самостоятельно прямо сейчас. Вопрос только в том, как это правильно сделать.
