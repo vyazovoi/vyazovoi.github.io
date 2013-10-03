@@ -40,5 +40,6 @@ Scriptogram -- блог-платформа, которая использует 
 - [Markbox](http://www.markbox.io) - жду инвайт
 - [Skrivr](http://skrivr.com) - выглядит интересно, жду инвайт
 - [roon.io](http://roon.io) - не устраивает меня по ряду параметров
+- [postach.io](http://postach.io) — блог в Evernote
 
 Если у кого-нибудь ещё есть идеи, я очень рад буду увидеть их в комментариях.
