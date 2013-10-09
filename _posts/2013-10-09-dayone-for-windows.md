@@ -6,7 +6,7 @@ comments: true
 categories: Windows DayOne
 icon: DayOne_icon.png
 ---
-Вчера я [упоминал](/blog/2013/10/08/diary-ios/), что использую [Day One](https://itunes.apple.com/us/app/day-one/id422304217) регулярно (несколько записей за день).
+Вчера я [упоминал](/blog/2013/10/08/diary-ios/), что использую [Day One](https://itunes.apple.com/ru/app/day-one/id422304217) регулярно (несколько записей за день).
 
 Day One это яркий пример приложения из мира Apple — красивое и с продвинутым функционалом (я ещё нигде не видел так много приложений с поддержкой [multi markdown](http://paul.elms.pro/blog/2013/08/23/calca-markdown-spreadsheet/)). Это одно из тех приложений, из-за которых я хотел перейти на Мак. Оказывается, есть и реализации Day One для Windows.
 
