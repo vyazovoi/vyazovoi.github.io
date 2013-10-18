@@ -14,6 +14,8 @@ icon: ParallelsDesktop_icon.png
 
 [Прямая ссылка на скрипт](http://d.pr/n/snpa+)
 
+<!--more-->
+
 Его содержимое:
 
 {% highlight bash %}

@@ -20,6 +20,7 @@ icon: Hazel_icon.png
 
 Кроме того, в Hazel есть функция автоматической очистки корзины при превышении объема в 10gb (удаляются самые старые по очереди) и для файлов, залежавшихся более чем на неделю. Это на самом деле очень удобно и мне не приходится настаивать, чтобы коллеги присылали ссылки на скриншоты вместо файлов.
 <!--more-->
+
 ### Проще всего показать эти правила на скриншотах
 
 <a class="screenshot" href="https://www.monosnap.com/image/CCoIluBtxYcY03j6oqhSq8sML.png" rel="screenshot" title="Удаление старых файлов в корзину"><img src="https://www.monosnap.com/image/CCoIluBtxYcY03j6oqhSq8sML.png" alt="hazel" /></a>

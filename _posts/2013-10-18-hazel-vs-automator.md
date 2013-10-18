@@ -16,6 +16,7 @@ icon: Hazel_icon.png
 
 Ещё лучше на вопрос из заголовка ответят скриншоты доступных триггеров и действий в Hazel (обратите внимание — список триггеров не влез в экран):
 <!--more-->
+
 <a class="screenshot" href="https://www.monosnap.com/image/xOtmn6UWWjiap7FKWgnhDv2Y2.png" rel="screenshot" title="Список часто используемых атрибутов"><img src="https://www.monosnap.com/image/xOtmn6UWWjiap7FKWgnhDv2Y2.png" alt="hazel атрибуты" style="width: 200px;" /></a>
 <a class="screenshot" href="https://www.monosnap.com/image/cXupe49q8wV69hCMlikJW58EL.png" rel="screenshot" title="Список действий"><img src="https://www.monosnap.com/image/cXupe49q8wV69hCMlikJW58EL.png" alt="hazel actions" style="width: 200px;" /></a>
 <a class="screenshot" href="https://www.monosnap.com/image/lJDhF2BIdtmvyikyEyxv8wbKl.png" rel="screenshot" title="Полный список атрибутов (обратите внимание на положение скролла)"><img src="https://www.monosnap.com/image/lJDhF2BIdtmvyikyEyxv8wbKl.png" alt="hazel атрибуты" /></a>
