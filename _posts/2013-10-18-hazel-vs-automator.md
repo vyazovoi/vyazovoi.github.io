@@ -15,7 +15,6 @@ icon: Hazel_icon.png
 **Как вы считаете, стоит покупать Hazel? Если кто-то может подсказать как реализовать работу с openmeta в Automator, то прошу поделиться.**
 
 Ещё лучше на вопрос из заголовка ответят скриншоты доступных триггеров и действий в Hazel (обратите внимание — список триггеров не влез в экран):
-
 <!--more-->
 
 <a class="screenshot" href="https://www.monosnap.com/image/xOtmn6UWWjiap7FKWgnhDv2Y2.png" rel="screenshot" title="Список часто используемых атрибутов"><img src="https://www.monosnap.com/image/xOtmn6UWWjiap7FKWgnhDv2Y2.png" alt="hazel атрибуты" style="width: 200px;" /></a>
