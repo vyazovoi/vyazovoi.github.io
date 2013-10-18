@@ -16,7 +16,7 @@ icon: ParallelsDesktop_icon.png
 
 Его содержимое:
 
-{% highlight bash %}
+```bash
 # Инструкции
 # 1. Загрузите все SFX- и RAR-файлы для виртуальной машины.
 # 2. Из терминала выполните загруженный файл, набрав chmod +x filename.sfx только для SFX-файла.
@@ -69,4 +69,4 @@ echo "IE 11 Preview Win8.1"
 
 curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/Parallels/OSX/IE11_Win81/IE11.Win8.1Preview.For.MacParallels.part{1.sfx,2.rar,3.rar}"
 curl -O "https://az412801.vo.msecnd.net/vhd/md5/IE11.Win8.1Preview.For.MacParallels.part{1.sfx,2.rar,3.rar}.txt"
-{% endhighlight %}
+```
