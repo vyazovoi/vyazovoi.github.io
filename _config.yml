@@ -40,3 +40,5 @@ permalink: /blog/:year/:month/:day/:title/
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: README.md
+
+pygments: true
