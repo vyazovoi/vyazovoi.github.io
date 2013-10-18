@@ -10,7 +10,7 @@ pre {
     background-color: #E8E8E8;
     margin-left: 30px;
     padding: 5px;
-    width: 60%;
+    overflow-x: auto;
 }
 
 strong {
