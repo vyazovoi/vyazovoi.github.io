@@ -6,7 +6,7 @@ comments: true
 categories: OSX Hazel Automator Workflow
 icon: Hazel_icon.png
 ---
-Задачу из [предыдущего поста](http://localhost:4000/blog/2013/10/18/hazel-clean-desktop/) можно решить и с помощью Automator, поэтому я решил написать чем Hazel выгодно отличается от Automator (ведь стоит Hazel немало).
+Задачу из [предыдущего поста](http://paul.elms.pro/blog/2013/10/18/hazel-clean-desktop/) можно решить и с помощью Automator, поэтому я решил написать чем Hazel выгодно отличается от Automator (ведь стоит Hazel немало).
 
 В Hazel есть много триггеров и действий, которые в Automator надо ещё как-то реализовать. Кроме того, все задачи в Hazel решаются парой кликов.
 
