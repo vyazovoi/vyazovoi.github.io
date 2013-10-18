@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Рецепты hazel: автоматическая уборка рабочего стола"
+title: "Рецепты Hazel: автоматическая уборка рабочего стола"
 date: 2013-10-18 10:26
 comments: true
 categories: OSX Workflow Hazel
