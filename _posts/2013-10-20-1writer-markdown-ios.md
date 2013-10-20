@@ -4,6 +4,7 @@ title: "1Writer: лучший markdown редактор на iOS"
 date: 2013-10-20 21:20
 comments: true
 categories: iOS Markdown Workflow Обзоры
+href: https://itunes.apple.com/ru/app/id680469088?at=10lbPv
 icon: 1Writer_icon.png
 ---
 Какую классную штуку я сегодня купил. Я имею ввиду [1Writer](https://itunes.apple.com/ru/app/id680469088?at=10lbPv). Сегодня он раздается всего за 33 рубля и я категорически рекомендую брать всем, кто использует markdown в своих процессах. Сейчас попробую объяснить почему.

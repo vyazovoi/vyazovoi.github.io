@@ -12,12 +12,16 @@ layout: default
 		
 		{% if post.content contains '<!--more-->' %}
 			<div class="entry">
+                {% if post.href %}<a href="{{ post.href }}" target="_blank">{% endif %}
                 {% if post.icon %}<img src="/images/articles/{{ post.icon }}" class="logo" title="{{ post.icon }}" alt="logo" />{% endif %}
+                {% if post.href %}</a>{% endif %}
                 {{ post.content | split:'<!--more-->' | first }} <a href="{{ post.url }}">➜ Читать дальше</a>
             </div>
 		{% else %}
 		    <div class="entry">
+                {% if post.href %}<a href="{{ post.href }}" target="_blank">{% endif %}
                 {% if post.icon %}<img src="/images/articles/{{ post.icon }}" class="logo" title="{{ post.icon }}" alt="logo" />{% endif %}
+                {% if post.href %}</a>{% endif %}
                 {{ post.content }}
             </div>
 		{% endif %}

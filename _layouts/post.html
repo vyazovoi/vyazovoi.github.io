@@ -9,7 +9,9 @@ layout: default
         </header>
 
         <div class="entry">
+            {% if page.href %}<a href="{{ page.href }}" target="_blank">{% endif %}
             {% if page.icon %}<img src="/images/articles/{{ page.icon }}" class="logo" title="{{ page.icon }}" alt="logo" />{% endif %}
+            {% if page.href %}</a>{% endif %}
             {{ content }}
         </div>
 		
