@@ -12,6 +12,6 @@ icon:
 
 <a class="screenshot" href="https://www.monosnap.com/image/vgMAncI8YVOCWCrzpBlGTJ4Ng.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/vgMAncI8YVOCWCrzpBlGTJ4Ng.png" alt="leap" /></a>
 
-Проверить затем можно здесь:
+Проверить затем можно здесь (это панель Finder):
 
 <a class="screenshot" href="https://www.monosnap.com/image/24alBLMma6mp8U9qzk9DWlvl1.png" rel="screenshot" title="Теги в Finder"><img src="https://www.monosnap.com/image/24alBLMma6mp8U9qzk9DWlvl1.png" alt="finder tags" style="width: 200px" /></a>
