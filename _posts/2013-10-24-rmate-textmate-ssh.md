@@ -37,4 +37,6 @@ Textmate уже потерял былую славу (имхо), но вот э�
 
 Более подробное описание в [официальном блоге](http://blog.macromates.com/2011/mate-and-rmate/).
 
+**UPD:** обалденное дополнение от @cybem, [rmate и sublime text](http://canadian-fury.com/2012/06/26/using-textmate-2-s-rmate-with-sublime-text-2/). Кроссплатформенно и с нормальной поддержкой [ctags в php](http://paul.elms.pro/blog/2013/10/03/osx-ctags-php-homebrew/).
+
 [bashrmate]: https://github.com/aurora/rmate "Порт rmate на bash"
