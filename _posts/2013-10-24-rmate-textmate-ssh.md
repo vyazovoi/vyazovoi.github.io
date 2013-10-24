@@ -5,7 +5,7 @@ date: 2013-10-24 15:44
 comments: true
 categories: OSX
 href: http://macromates.com
-icon: Textmate_icon.png
+icon: TextMate_icon.png
 ---
 Textmate уже потерял былую славу (имхо), но вот эта фишка до сих пор удерживает его от удаления с моего компьютера. Кстати, если кто-то не знает — textmate 2 на время разработки бесплатен.
 
