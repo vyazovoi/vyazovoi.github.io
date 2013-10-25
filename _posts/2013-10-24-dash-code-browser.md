@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dash: помошник программиста"
-date: 2013-10-24 22:39
+date: 2013-10-25 11:30
 comments: true
 categories: OSX Обзоры
 href: http://kapeli.com/dash
