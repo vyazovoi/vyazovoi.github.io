@@ -40,12 +40,23 @@ Dash уже содержит более 80-ти пакетов документ�
 
 У меня нет никакой другой программы для авто-замены текста, поэтому я взял для примера набор сниппетов [Brett Terpstra](http://brettterpstra.com) для [Textexpander](http://brettterpstra.com/projects/te-tools/) и перенёс их в Dash. Например, двойной пробел разворачивается в точку с пробелом, как на iOS (с этим я пока экспериментирую). В TextExpander этот сниппет тормозил, а в Dash он работает молниеносно. Ещё некоторые простые примеры: !imp разворачивается в !important, ccmd в символ ⌘, ooption в ⌥ и так далее. Сниппеты с вводом данных при вставке тоже поддерживаются, я использую его, например, для сниппета ,,dummy, который генерирует картинки-заглушки и спрашивает при вставке width, height и title. Вот несколько примеров:
 
-<a class="screenshot" href="https://www.monosnap.com/image/ZiODJkQs6Z0C0Vxc4AkFI6qu7.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/ZiODJkQs6Z0C0Vxc4AkFI6qu7.png" alt="snippet examples" /></a>  
-<a class="screenshot" href="https://www.monosnap.com/image/0peKUxccUMKEKWLlJHbEvGX3Q.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/0peKUxccUMKEKWLlJHbEvGX3Q.png" alt="snippets examples" /></a>  
-<a class="screenshot" href="https://www.monosnap.com/image/8ltYyrxDm3BNn1uxB4BOAkSem.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/8ltYyrxDm3BNn1uxB4BOAkSem.png" alt="snippet examples" /></a>  
-<a class="screenshot" href="https://www.monosnap.com/image/JEbEqsu3vEX8k0DCYJnJ9qAvL.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/JEbEqsu3vEX8k0DCYJnJ9qAvL.png" alt="snippet examples" /></a>  
-<a class="screenshot" href="https://www.monosnap.com/image/n15a05CfjT5IaOcXz8GlShXon.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/n15a05CfjT5IaOcXz8GlShXon.png" alt="dash snippet examples" /></a>
+<a class="screenshot" href="https://www.monosnap.com/image/ZiODJkQs6Z0C0Vxc4AkFI6qu7.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/ZiODJkQs6Z0C0Vxc4AkFI6qu7.png" alt="snippet examples" /></a>
 
-Кстати, картинки в этот блог я вставляю тоже с помощью сниппетов Dash.
+Котятки:
+
+<a class="screenshot" href="https://www.monosnap.com/image/0peKUxccUMKEKWLlJHbEvGX3Q.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/0peKUxccUMKEKWLlJHbEvGX3Q.png" alt="snippets examples" /></a>  
+<img src="http://placekitten.com/150/200" alt="KITTEH 150x200" width="150" height="200" />
+
+HTML5 video:
+
+<a class="screenshot" href="https://www.monosnap.com/image/8ltYyrxDm3BNn1uxB4BOAkSem.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/8ltYyrxDm3BNn1uxB4BOAkSem.png" alt="snippet examples" /></a>
+
+Быстро вставить box-shadow (каждый плейсхолдер вводится только один раз):
+
+<a class="screenshot" href="https://www.monosnap.com/image/JEbEqsu3vEX8k0DCYJnJ9qAvL.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/JEbEqsu3vEX8k0DCYJnJ9qAvL.png" alt="snippet examples" /></a>
+
+А вот так я вставляю картинки в этот блог (для lightbox):
+
+<a class="screenshot" href="https://www.monosnap.com/image/n15a05CfjT5IaOcXz8GlShXon.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/n15a05CfjT5IaOcXz8GlShXon.png" alt="dash snippet examples" /></a>
 
 Теперь не самое главное, но почти: установить и использовать Dash вы можете совершенно бесплатно в течение любого количества времени. Но он будет иногда навязчиво просить купить его. Загрузить его можно как с [официального сайта](http://kapeli.com/dash), так и с [Mac App Store](https://itunes.apple.com/us/app/dash/id458034879?ls=1&mt=12).
