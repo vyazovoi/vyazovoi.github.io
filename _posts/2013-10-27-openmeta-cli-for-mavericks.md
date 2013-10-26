@@ -10,6 +10,7 @@ icon:
 Наличие системы тегирования в OS X прямо из коробки это самое значимое по практической полезности нововведение Mavericks. Теперь я могу проставлять теги прямо из Finder, и это сделано довольно удобно. Могу проставить теги в диалоге сохранения файла. У тегов теперь есть цветные метки. Ещё могу вот так сделать:
 
 <a class="screenshot" href="https://www.monosnap.com/image/FnpXPhqvwKDkllbvHj75AAY0q.png" rel="screenshot" title=""><img src="https://www.monosnap.com/image/FnpXPhqvwKDkllbvHj75AAY0q.png" alt="mavericks tags" /></a>
+<!--more-->
 
 В общем всё круто, кроме одного: ещё есть ряд приложений, которые работают со старыми openmeta тегами. Есть множество скриптов, которые были завязаны на openmeta cli. Остаётся только ждать обновлений.
 
