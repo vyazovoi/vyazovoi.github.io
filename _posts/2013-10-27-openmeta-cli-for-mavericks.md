@@ -20,6 +20,6 @@ icon:
 
 Итак, скачать openmeta cli с поддержкой openmeta и Mavericks тегов одновременно можно [здесь](http://ckyp.us/8HPT).
 
-Теперь у меня осталось только одно приложение без поддержки Mavericks тегов, это [nvalt](http://brettterpstra.com/projects/nvalt/). Но, т.к. автор его как раз сам Brett Terpstra, то я надеюсь на скорое обновление.
+Теперь у меня осталось только одно приложение без поддержки Mavericks тегов, это [nvalt](http://brettterpstra.com/projects/nvalt/). Но, т.к. один из авторов его как раз сам Brett Terpstra, то я надеюсь на скорое обновление.
 
 А вот ещё скрипт для переноса openmeta тегов в новый формат: [gist/Zettt/5880737](https://gist.github.com/Zettt/5880737). Но, я уже предлагал более простой и надежный способ перенести теги [здесь](http://paul.elms.pro/blog/2013/10/23/mavericks-tags/).
