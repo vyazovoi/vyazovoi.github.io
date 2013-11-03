@@ -3,7 +3,7 @@ layout: post
 title: Цвета вместо флажков в Mail.app
 date: 2013-11-04 00:02
 comments: true
-categories: OSX alfred 
+categories: OSX alfred AppleScript
 href: 
 icon: Mail_icon.png
 ---
@@ -18,3 +18,8 @@ icon: Mail_icon.png
 Выглядит это так: <!--more-->
 
 <a class="screenshot" href="https://www.monosnap.com/image/8pYu4KxY0w5rzIZ0C3kSl9jkf.png" rel="screenshot" title="mail color alfred workflow"><img src="https://www.monosnap.com/image/8pYu4KxY0w5rzIZ0C3kSl9jkf.png" alt="mail.app background colors" style="width: 250px" /></a>
+
+Те, у кого нет Alfred, могут прикрутить этот AppleScript к любой другой запускалке скриптов (пример с красным цветом):
+
+tell application "Mail"	set maillist to selection	repeat with i from 1 to number of items in maillist		set this_item to item i of maillist		if class of this_item is message then			set background color of this_item to red		end if	end repeatend tell
+Проверенные варианты цветов: red, orange, yellow, green, purple, gray, **none**.
