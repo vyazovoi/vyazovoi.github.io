@@ -21,6 +21,16 @@ icon: Mail_icon.png
 
 Те, у кого нет Alfred, могут прикрутить этот AppleScript к любой другой запускалке скриптов (пример с красным цветом):
 
-```
-tell application "Mail"	set maillist to selection	repeat with i from 1 to number of items in maillist		set this_item to item i of maillist		if class of this_item is message then			set background color of this_item to red		end if	end repeatend tell
-```Проверенные варианты цветов: red, orange, yellow, green, purple, gray, **none**.
+{% highlight applescript %}
+tell application "Mail"
+	set maillist to selection
+	repeat with i from 1 to number of items in maillist
+		set this_item to item i of maillist
+		if class of this_item is message then
+			set background color of this_item to red
+		end if
+	end repeat
+end tell
+{% endhighlight %}
+
+Проверенные варианты цветов: red, orange, yellow, green, purple, gray, **none**.
