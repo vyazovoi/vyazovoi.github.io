@@ -2,10 +2,10 @@
 name: Unix Way
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: "Пишу про OS X автоматизацию, немного про iOS, Emacs, Веб-разработку, свободное ПО и т.д."
+description: "Пишу про автоматизацию OS X, немного iOS, веб-разработка и др."
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Paul Elms
+author: Павел Вязовой
 
 # Your email if you want it to be linked on the contact page
 author_email: paul@elms.pro

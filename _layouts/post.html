@@ -3,20 +3,39 @@ layout: default
 ---
 
 <article>
-        <header>
-            <h2>{{ page.title }}</h2>
-            <span><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span>, <span class="author"> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif %}</span>, Категории: <span class="category"> {% for category in page.categories %}{{category}} {% endfor %}</span>
-        </header>
-
-        <div class="entry">
-            {% if page.href %}<a href="{{ page.href }}" target="_blank">{% endif %}
-            {% if page.icon %}<img src="/images/articles/{{ page.icon }}" class="logo" title="{{ page.icon }}" alt="logo" />{% endif %}
-            {% if page.href %}</a>{% endif %}
-            {{ content }}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1 class="panel-title post-title">{{ page.title }}</h1>
         </div>
-		
-		<div class="comments">{% include disqus.html %}</div>
+        <div class="panel-body">
+            <i class="fa fa-calendar"></i> <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time> &nbsp;
+            <i class="fa fa-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif %} &nbsp;
+            <i class="fa fa-tags"></i> {% for category in page.categories %}{{category}}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
 
-        <footer><!-- additional info --></footer>
+            <div class="pull-right share-buttons hidden-xs" style="font-size: 22px; line-height: 14px;">
+                {% include share.html %}
+            </div>
+        </div>
+    </div>
+
+    <div class="entry">
+        {% if page.href %}<a href="{{ page.href }}" target="_blank">{% endif %}
+        {% if page.icon %}<img src="/images/articles/{{ page.icon }}" class="logo" title="{{ page.icon }}" alt="logo" />{% endif %}
+        {% if page.href %}</a>{% endif %}
+
+        {{ content }}
+    </div>
+
+    <div class="center-block text-center share-buttons" style="font-size: 48px; line-height: 22px;">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                {% include share.html %}
+            </div>
+        </div>
+    </div>
+
+    <div class="comments">
+        {% include disqus.html %}
+    </div>
 
 </article>

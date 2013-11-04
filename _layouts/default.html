@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" itemscope itemtype="http://schema.org/Article">
 {% include head.html %}
 
     <body>
         <header>
-            <div class="wrapper">
-                <hgroup>
-                <h1><a href="{{site.url}}/">{{ site.name }}</a></h1>
-                    <h4>{{ site.description }}</h4>
-                </hgroup>
-    			{% include nav.html %}
-    			<div class="clear"></div>
-			</div>
+            {% include nav.html %}
         </header>
 
         <main>
+            <div class="container" style="margin-bottom: 20px;">
 
-            {{ content }}
+                {{ content }}
+
+            </div>
+
+            <div class="clearfix"></div>
 
         </main>
         
