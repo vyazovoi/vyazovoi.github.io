@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Про TaskPaper, вводный пост"
+description: Обзор TaskPaper, plain-text менеджера задач для OS X и iOS
 comments: true
 categories: OSX iOS Обзоры TaskPaper Workflow Emacs
 icon: TaskPaper_icon.png
