@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Цвета вместо флажков в Mail.app
-date: 2013-11-04 00:02
+date: "2013-11-04 00:02"
 comments: true
 categories: OSX alfred AppleScript
-href: 
+href: null
 icon: Mail_icon.png
+published: true
 ---
 
 Сам я в данный момент использую [Airmail](https://itunes.apple.com/us/app/airmail/id573171375?mt=12&uo=4&at=10l4tL&ct=searchlink), но давно хотел поделиться одной интересной фишкой для Mail.
@@ -33,4 +34,4 @@ tell application "Mail"
 end tell
 {% endhighlight %}
 
-Проверенные варианты цветов: red, orange, yellow, green, purple, gray, **none**.
+Проверенные варианты цветов: <span style="color:red">red</span>, <span style="color:orange">orange</span>, <span style="color:yellow">yellow</span>, <span style="color:green">green</span>, <span style="color:purple">purple</span>, <span style="color:gray">gray</span>, **none**.
