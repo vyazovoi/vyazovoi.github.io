@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Dash: помошник программиста"
+title: Dash: помощник программиста
+description: Dash — браузер документации и менеджер сниппетов
 date: 2013-10-25 11:30
 comments: true
 categories: OSX Обзоры
