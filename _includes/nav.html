@@ -1,51 +1,56 @@
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="{{site.url}}" class="navbar-brand">{{site.name}}</a>
-            <p class="navbar-text visible-md visible-lg">{{ site.description }}</p>
-        </div>
-        <div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
-			    <li class="hidden-xs"><a href="/">Об авторе</a></li>
-			    <li class="visible-xs"><a href="/">Об авторе <i class="fa fa-info-circle pull-right"></i></a></li>
-			    <li class="visible-xs"><a href="/blog">Записи блога <i class="fa fa-list pull-right"></i></a></li>
-
-				<li class="dropdown hidden-xs">
-					<a href="/blog" class="dropdown-toggle" data-toggle="dropdown">Блог</a>
-					<ul class="dropdown-menu">
-						<li><a href="/blog">Записи <i class="fa fa-list pull-right"></i></a></li>
-						<li><a href="#">Категории <i class="fa fa-tags pull-right"></i></a></li>
-						<li><a href="/blog/archives">Архив <i class="fa fa-calendar pull-right"></i></a></li>
-					</ul>
-				</li>
-				<li class="visible-xs"><a href="#">Категории <i class="fa fa-tags pull-right"></i></a></li>
-				<li class="visible-xs"><a href="/blog/archives">Архив <i class="fa fa-calendar pull-right"></i></a></li>
-			    <li class="hidden-xs">
-		            <a href="http://feeds.feedburner.com/vyazovoi" target="_blank">
-		                <i style="color: orange;" class="fa fa-rss"></i>
-		            </a>
-		        </li>
-		        <li class="hidden-xs">
-		        	<a href="https://twitter.com/vyazovoi">
-			        	<i style="color: #1399E6;" class="fa fa-twitter"></i>
-		        	</a>
-		    	</li>
-		        <li class="visible-xs">
-		            <a href="http://feeds.feedburner.com/vyazovoi" target="_blank">
-		                RSS <i style="color: orange;" class="fa fa-rss pull-right"></i>
-		            </a>
-		        </li>
-		        <li class="visible-xs">
-		        	<a href="https://twitter.com/vyazovoi">
-		        		Twitter <i style="color: #1399E6;" class="fa fa-twitter pull-right"></i>
-		    		</a>
-				</li>
-			</ul>
-		</div>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">        
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="{{site.url}}" class="navbar-brand">{{site.name}}</a>
+        <p class="navbar-text visible-md visible-lg">{{ site.description }}</p>
     </div>
+
+    <div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav navbar-right">
+		    <li class="hidden-xs"><a href="/">Об авторе</a></li>
+		    <li class="visible-xs"><a href="/">Об авторе <i class="fa fa-info-circle pull-right"></i></a></li>
+		    <li class="visible-xs"><a href="/blog">Записи блога <i class="fa fa-list pull-right"></i></a></li>
+
+			<li class="dropdown hidden-xs">
+				<a href="/blog" class="dropdown-toggle" data-toggle="dropdown">Блог</a>
+				<ul class="dropdown-menu">
+					<li><a href="/blog">Записи <i class="fa fa-list pull-right"></i></a></li>
+					<li><a href="#">Категории <i class="fa fa-tags pull-right"></i></a></li>
+					<li><a href="/blog/archives">Архив <i class="fa fa-calendar pull-right"></i></a></li>
+				</ul>
+			</li>
+			<li class="visible-xs"><a href="#">Категории <i class="fa fa-tags pull-right"></i></a></li>
+			<li class="visible-xs"><a href="/blog/archives">Архив <i class="fa fa-calendar pull-right"></i></a></li>
+		    <li class="hidden-xs">
+	            <a href="http://feeds.feedburner.com/vyazovoi" target="_blank">
+	                <i style="color: orange;" class="fa fa-rss"></i>
+	            </a>
+	        </li>
+	        <li class="hidden-xs">
+	        	<a href="https://twitter.com/vyazovoi">
+		        	<i style="color: #1399E6;" class="fa fa-twitter"></i>
+	        	</a>
+	    	</li>
+	        <li class="visible-xs">
+	            <a href="http://feeds.feedburner.com/vyazovoi" target="_blank">
+	                RSS <i style="color: orange;" class="fa fa-rss pull-right"></i>
+	            </a>
+	        </li>
+	        <li class="visible-xs">
+	        	<a href="https://twitter.com/vyazovoi">
+	        		Twitter <i style="color: #1399E6;" class="fa fa-twitter pull-right"></i>
+	    		</a>
+			</li>
+		</ul>
+
+		<form class="navbar-form navbar-right" role="search">
+			<div class="form-group">
+				<input type="text" id="st-search-input" class="st-search-input-disabledclass form-control" placeholder="Поиск по сайту">
+			</div>
+		</form>
+	</div>
 </nav>
