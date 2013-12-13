@@ -14,6 +14,7 @@ icon: DigitalColorMeter_icon.png
 Во-первых, хочу всем рекомендовать бесплатную утилиту [Better Touch Tool](http://www.boastr.net/). Особенно тем, кто работает с трекпадом макбука или magick trackpad: она позволяет настроить огромное количество действий на жесты трекпада. Кроме того, она позволяет настраивать клавиатурные сочетания, управление окнами с помощью мыши (window snapping), увеличение скорости трекпада при зажатии кнопки (у меня fn+⌃), перемещение окон при зажатии fn и т.д. Сложно описать все возможности программы.
 
 С помощью Better Touch Tool можно задать жест или клавиатурное сочетание для вызова стандартной пипетки:
+<!--more-->
 
 <a class="screenshot" href="https://www.monosnap.com/image/MlTsxxtEMVHb9hQZCTiX7k8B9.png" rel="screenshot" title="Вызов пипетки в Better Touch Tool на последовательности тапов"><img src="https://www.monosnap.com/image/MlTsxxtEMVHb9hQZCTiX7k8B9.png" alt="better touch tool" /></a>
 
