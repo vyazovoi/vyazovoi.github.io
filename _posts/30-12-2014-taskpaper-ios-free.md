@@ -7,7 +7,7 @@ categories: iOS Обзоры Taskpaper Workflow
 href: https://itunes.apple.com/ru/app/id354540092?mt=8&at=10lbPv
 icon: TaskPaper_icon.png
 ---
-Подробнее про Taskpaper можно прочитать в [этом]({% post_url 2013-09-25-taskpaper %}) обзоре.  
+Подробнее про Taskpaper можно прочитать в [этом обзоре]({% post_url 2013-09-25-taskpaper %}).  
 А сейчас просто советую не пропустить бесплатную раздачу iOS версии этой программы.
 
 [TaskPapper в AppStore](https://itunes.apple.com/us/app/taskpaper-simple-to-do-lists/id354540092?mt=8&uo=4&at=10l4tL&ct=searchlink)
