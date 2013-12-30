@@ -78,3 +78,12 @@ div.entry {
 .st-snippet em {
 	color: #d44950;
 }
+
+/* Заголовки внутри статьи */
+
+.entry h2 {
+	font-size: 1.3em;
+}
+.entry h3 {
+	font-size: 1.1em;
+}
