@@ -17,21 +17,28 @@ layout: default
 </p>
 
 <p>
-	Последние записи в блоге:
-
-	<ul>
-		{% for post in site.posts limit:5 %}
-	  		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<a href="/blog/"><i class="fa fa-sign-in"></i> Перейти в блог</a>
-</p>
-
-<p>
 	В можете подписаться на меня в <a href="">Twitter</a>, написать мне на <a href="mailto:paul@elms.pro">E-mail</a> (<a href="/files/64D95937.asc">PGP key</a>) или в <a href="skype:vyazovoi?chat">Skype</a>. Также я доступен в iMessage, Viber и WhatsApp по номеру телефона +7 (922) 018-12-90. Остальные контакты в подвале.
 </p>
 
-<p>
+<!--<p>
 	А ещё вы можете почитать <a href="http://marina.elms.pro">блог моей жены</a>.
-</p>
+</p>-->
+
+<!--<p>
+	<h4>Последние записи в <a href="/blog/">блоге <i class="fa fa-sign-in"></i></a></h4>
+</p>-->
+
+<div class="row">
+	{% for post in site.posts limit:6 %}
+	<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 slider" ontouchstart="this.classList.toggle('hover');">
+		<a href="{{ post.url }}" title="{{ post.title }}" class="thumbnail">
+			{% if post.icon %}<img src="/images/articles/{{ post.icon }}" alt="{{ post.title }}">{% endif %}
+		</a>
+		<div class="caption">
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="clearfix"></div>
