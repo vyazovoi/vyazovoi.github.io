@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[FREE] Taskpaper для iOS раздается бесплатно"
-date: 30-12-2014 10:00
+date: 30-12-2013 10:00
 comments: true
 categories: iOS Обзоры Taskpaper Workflow
 href: https://itunes.apple.com/ru/app/id354540092?mt=8&at=10lbPv
