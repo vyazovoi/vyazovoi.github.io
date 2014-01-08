@@ -4,9 +4,7 @@ title: Работа с markdown документами в браузере и п
 description: Обзор трёх сервисов для редактирования markdown в браузере и публикации на github в jekyll-блоге
 date: 2013-11-05 14:19
 comments: true
-categories: markdown jekyll 
-href: 
-icon: Writing_icon.png
+categories: markdown jekyll
 ---
 
 Как-то давно я писал про [выбор платформы для блога]({% post_url 2013-05-04-novaia-platforma-dlia-blogha %}). Тогда мне не нравилась в jekyll+github блоге его привязанность к git. Мне хотелось публиковать заметки на ходу, прямо с iPhone. С тех пор мне так ни разу и не приходилось опубликовать заметку с телефона, но зато я нашел способ это сделать. В общем, сегодняшний обзор будет на тему браузерных markdown-редакторов, их работы на iPhone и публикации на GitHub.

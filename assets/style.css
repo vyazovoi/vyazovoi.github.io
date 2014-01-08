@@ -17,15 +17,15 @@ article a.screenshot>img {
 	margin-bottom: 20px;
 }
 
-html {
+/*html {
 	background-color: #DEDEDE;
-}
+}*/
 
 body {
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;
 	box-shadow: 0 4px 5px;
 	-webkit-box-shadow: 0 4px 5px;
-	-moz-box-shadow: 0 4px 5px;
+	-moz-box-shadow: 0 4px 5px;*/
 }
 
 .nav li>a>i.fa.pull-right {
@@ -86,4 +86,52 @@ div.entry {
 }
 .entry h3 {
 	font-size: 1.1em;
+}
+
+.200x200 {
+	width: 200px;
+	height: 200px;
+}
+
+.contacts-icons {
+	font-size: 32px;
+	color: #afaeb0;
+}
+.contacts-icons:hover {
+	color: #2a6496;
+}
+.contacts-icons a {
+	color: #afaeb0;
+}
+.contacts-icons a:hover {
+	color: #2a6496;
+}
+#phone-hidden {
+	display: none;
+}
+.contacts-icons .fa-phone-square:hover {
+	color: #5FC244;
+}
+.contacts-icons .fa-envelope:hover {
+	color: #D64A3D;
+}
+.contacts-icons .fa-twitter-square:hover {
+	color: #1DADEB;
+}
+.contacts-icons .fa-github-square:hover {
+	color: #333333;
+}
+.contacts-icons .fa-facebook-square:hover {
+	color: #3B5A96;
+}
+.contacts-icons .fa-skype:hover {
+	color: #1EAEF0;
+}
+
+.fstyled {
+	font-family: 'PT Sans', Arial;
+	font-size: 1.2em;
+}
+body, h1, h2, h3, h4, h5 {
+	font-family: 'PT Sans', Arial;
 }
