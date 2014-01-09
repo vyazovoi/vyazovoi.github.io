@@ -110,7 +110,7 @@ div.entry {
     display: none;
 }
 .contacts-icons i:hover {
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 0px 1px black;
 }
 .contacts-icons .fa-phone-square {
     color: #5FC244;
