@@ -15,10 +15,10 @@ jQuery(document).ready(function($) {
 
     $(".slider").hover(function() {
         // $(this).find('.hover-text').show();
-        $(this).find('.hover-text').css('opacity', '0.8');
+        $(this).find('.hover-text').css('opacity', '0.9');
     }, function() {
         // $(this).find('.hover-text').hide();
-        $(this).find('.hover-text').css('opacity', '0.4');
+        $(this).find('.hover-text').css('opacity', '0.6');
     });
 
 });
