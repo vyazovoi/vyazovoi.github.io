@@ -14,11 +14,11 @@ jQuery(document).ready(function($) {
     // });
 
     $(".slider").hover(function() {
-        $(this).find('.hover-text').show();
-        $(this).find('.hover-text').css('opacity', '0.7');
+        // $(this).find('.hover-text').show();
+        $(this).find('.hover-text').css('opacity', '0.8');
     }, function() {
-        $(this).find('.hover-text').hide();
-        $(this).find('.hover-text').css('opacity', '0.3');
+        // $(this).find('.hover-text').hide();
+        $(this).find('.hover-text').css('opacity', '0.4');
     });
 
 });
