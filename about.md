@@ -12,7 +12,7 @@
     А ещё вы можете почитать <a href="http://marina.elms.pro">блог моей жены</a>.
 -->
 
-twitter: http://twitter.com/vyazovoi "Twitter"
-email: mailto:paul@elms.pro "E-mail"
-pgp: /files/64D95937.asc "PGP/GPG key"
-skype: skype:vyazovoi?chat "Skype"
+[twitter]: http://twitter.com/vyazovoi "Twitter"
+[email]: mailto:paul@elms.pro "E-mail"
+[pgp]: /files/64D95937.asc "PGP/GPG key"
+[skype]: skype:vyazovoi?chat "Skype"
