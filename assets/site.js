@@ -13,4 +13,12 @@ jQuery(document).ready(function($) {
     //     $(this).fancybox();
     // });
 
+    $(".slider").hover(function() {
+        $(this).find('.hover-text').show();
+        $(this).find('.hover-text').css('opacity', '0.7');
+    }, function() {
+        $(this).find('.hover-text').hide();
+        $(this).find('.hover-text').css('opacity', '0.3');
+    });
+
 });

@@ -43,8 +43,10 @@ layout: default
 				<a href="{{ post.url }}" title="{{ post.title }}" class="thumbnail">
 					{% if post.icon %}
 						<img src="/images/articles/{{ post.icon }}" alt="{{ post.title }}" class="200x200">
+						<span class="hover-text">{{ post.title }}</span>
 					{% else %}
 						<img src="http://placehold.it/200x200/ffffff/333333&text=no picture" alt="{{post.title}}" width="200" height="200" class="200x200" />
+						<span class="hover-text bydefault">{{ post.title }}</span>
 					{% endif %}
 				</a>
 			</div>
