@@ -15,6 +15,6 @@ icon: Safari_icon.png
 
 Уведомления настраиваются следующим образом:
 
-<a class="screenshot" href="http://take.ms/w5h66.png" rel="screenshot" title="Отключаем всплывающие уведомления"><img src="http://take.ms/w5h66.png" alt="notification center" /></a>
+<a class="screenshot" href="https://www.monosnap.com/image/v6RfFVgGG6RQAoOtGgKeO2VdBGiCxP.png" rel="screenshot" title="Отключаем всплывающие уведомления"><img src="https://www.monosnap.com/image/v6RfFVgGG6RQAoOtGgKeO2VdBGiCxP.png" alt="notification center" /></a>
 
 Кстати, некоторые популярные веб-сайты уже используют эту технологию напрямую. Среди них [Applifto](http://applifto.ru) и [Appstudio](http://appstudio.org).
