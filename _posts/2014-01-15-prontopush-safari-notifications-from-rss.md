@@ -13,4 +13,8 @@ icon: Safari_icon.png
 
 Реализовать такую схему позволяет сервис [prontopush](https://prontopush.com). Он использует возможности нового safari в mavericks и будет отправлять любые RSS-фиды в виде push-уведомлений прямо на Мак. Воспользоваться сервисом очень просто: [регистрируемся](https://prontopush.com/signup.php), разрешаем в safari получать уведомления от prontopush, и добавляем rss-фиды.
 
+Уведомления настраиваются следующим образом:
+
+<a class="screenshot" href="http://take.ms/w5h66.png" rel="screenshot" title="Отключаем всплывающие уведомления"><img src="http://take.ms/w5h66.png" alt="notification center" /></a>
+
 Кстати, некоторые популярные веб-сайты уже используют эту технологию напрямую. Среди них [Applifto](http://applifto.ru) и [Appstudio](http://appstudio.org).
