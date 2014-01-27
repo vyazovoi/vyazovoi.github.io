@@ -10,4 +10,4 @@
 # SITE
 
     Language: Russian
-    Dev. Tools: Textmate 2, SourceTree, iTerm2
+    Dev. Tools: GNU Emacs, SourceTree, iTerm2
