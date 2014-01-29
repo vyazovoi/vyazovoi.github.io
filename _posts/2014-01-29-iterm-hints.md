@@ -13,11 +13,11 @@ icon: iTerm_icon.png
 
 Hotkey Window — специальный профиль для [iTerm2](https://code.google.com/p/iterm2/), который реализует тоже самое, что и [TotalTerminal](http://totalterminal.binaryage.com) для стандартного терминала.
 
-### Убрать Hotkey Window из списка окон в Mission Control
+## Убрать Hotkey Window из списка окон в Mission Control
 
 По-умолчанию Hotkey Window отображается в Mission Control в виде невидимого окна (как-то так, да). Чтобы исправить это открываем настройки iTerm и ставим галочку на поле "Closing Hotkey Window restores focus to last window, but may switch Spaces".
 
-### Позволить Hotkey Window окну открываться поверх Mission Control и полноэкранных окон
+## Позволить Hotkey Window окну открываться поверх Mission Control и полноэкранных окон
 
 По-умолчанию, Hotkey Window не может открываться поверх полноэкранных окон и в Mission Control. Вместо этого, происходит переключение на обычный рабочий стол, что лично меня очень раздражает. Автор iTerm2 говорит что не смог найти нормально решения этой проблемы в Lion-Mavericks. На самом деле, если небольшой хак, у которого есть один минус: если вы пользуетесь не только Hotkey Window, но и обычным профилем, то не сможете переключаться на окна iTerm2 через ⌘TAB. Но в Mission Control такие окна все равно остаются, так что меня полностью устраивает такой хак.
 
