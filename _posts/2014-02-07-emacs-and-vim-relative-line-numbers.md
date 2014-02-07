@@ -4,7 +4,7 @@ title: Относительная нумерация строк в Emacs и VIM
 description: Использование относительной нумерации строк увеличивает продуктивность работы в Emacs и VIM
 date: 2014-02-07 14:32
 comments: true
-categories: emacs vim 
+categories: emacs vim runix
 icon: Emacs_icon.png
 ---
 

@@ -4,7 +4,7 @@ title: Смена дневной и ночной цветовых схем в VI
 description: Несколько способов автоматического изменения цветовых схем в VIM
 date: 2014-02-07 12:26
 comments: true
-categories: vim OSX
+categories: vim OSX runix
 icon: MacVim_icon.png
 ---
 
