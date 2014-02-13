@@ -2,7 +2,7 @@
 name: Unix Way
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: "Пишу про автоматизацию OS X, немного iOS, веб-разработка и др."
+description: "GNU Emacs в OS X, автоматизация Маков и другие темы"
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Павел Вязовой
@@ -22,8 +22,6 @@ category_dir: blog/categories
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://paul.elms.pro
 
-
-
 #### Under the Hood Stuff #####
 
 # Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
@@ -41,7 +39,7 @@ permalink: /blog/:year/:month/:day/:title/
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: README.md
 
-destination: /tmp/site-html
+destination: /tmp/site-html/public
 
 # # github
 # pygments: true
