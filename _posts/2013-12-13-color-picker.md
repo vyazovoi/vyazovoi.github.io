@@ -32,7 +32,7 @@ choose color
 
 <a class="screenshot" href="https://www.monosnap.com/image/PXg8UIeXBw4jzOBM5dgnxGfm0.png" rel="screenshot"><img src="https://www.monosnap.com/image/PXg8UIeXBw4jzOBM5dgnxGfm0.png" alt="hex color picker" /></a>
 
-Ещё один интересный бесплатный плагин — [Developer Color Picker](http://www.panic.com/~wade/picker/). Он будет полезен OS X и iOS разработчикам. Hex-значения он тоже умеет копировать.
+Ещё один интересный бесплатный плагин — [Developer Color Picker](http://download.panic.com/picker/). Он будет полезен OS X и iOS разработчикам. Hex-значения он тоже умеет копировать.
 
 <a class="screenshot" href="https://www.monosnap.com/image/A9oYJjVUNeHMyHH7Yrjbs4xul.png" rel="screenshot"><img src="https://www.monosnap.com/image/A9oYJjVUNeHMyHH7Yrjbs4xul.png" alt="developer color picker" /></a>
 
