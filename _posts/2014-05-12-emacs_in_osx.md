@@ -10,7 +10,7 @@ icon: Emacs_icon.png
 
 ## Установка
 
-Самая лучшая сборка Emacs для OS X устанавливается следующим образом (у вас ведь уже есть [homebrew](http://brew.sh), верно?):
+Самая лучшая сборка Emacs для OS X устанавливается следующим образом (у тебя ведь уже есть [homebrew](http://brew.sh), верно?):
 
   brew tap railwaycat/emacsmacport
   brew install emacs-mac --icon-modern
