@@ -8,8 +8,6 @@ categories: vim Alfred Workflow runix OSX
 icon: MacVim_icon.png
 ---
 
-Я над многими проектами целиком и полностью работаю или в MacVim, или в Sublime Text.
-
 На тему Vim vs Sublime мне тоже очень хочется много всяких мыслей
 написать, но не сейчас. А сейчас расскажу как можно организовывать
 проекты в Vim не хуже, чем в Sublime Text.
