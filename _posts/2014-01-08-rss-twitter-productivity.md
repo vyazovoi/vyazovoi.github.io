@@ -3,7 +3,7 @@ layout: post
 title: "Про пожиратели времени: RSS и Twitter"
 description: фильтруем информационный шум, рецепт для замены rss-ридера
 date: 2014-01-08 12:31
-comments: true
+comments: false
 ---
 
 Тут [Александр](http://fluder.co/blog/2014/01/07/first-app-in-the-morning) высказался на тему пожирания времени такими приложениями, как Twitter. И [Олег](http://ctrld.me) неоднократно писал на эту тему. Так что я решил тоже высказаться.
