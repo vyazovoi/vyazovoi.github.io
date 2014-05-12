@@ -3,7 +3,7 @@ layout: post
 title: Ещё один способ уменьшить информационный шум от RSS
 description: Добавляем push-нотификации в Safari для любых RSS-фидов
 date: 2014-01-15 14:00
-comments: true
+comments: false
 categories: OSX Продуктивность
 icon: Safari_icon.png
 ---
