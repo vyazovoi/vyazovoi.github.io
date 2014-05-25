@@ -2,10 +2,11 @@
 layout: post
 title: Как готовить Emacs в OS X
 description: Установка и настройка Emacs в MacOSX
-date: 2014-05-12 02:53
+date: "2014-05-12 02:53"
 comments: true
 categories: emacs OSX
 icon: Emacs_icon.png
+published: true
 ---
 
 ## Установка
@@ -60,7 +61,7 @@ icon: Emacs_icon.png
 
 ## Настройки OSX-only
 
-Для тех, кто использует один конфиг Emacs на разных ОС, существует задавать настройки локально.
+Для тех, кто использует один конфиг Emacs на разных ОС, существует возможность задавать настройки локально.
 Для OS X это делается следующим образом:
 
     (when (eq system-type 'darwin)
