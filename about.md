@@ -22,15 +22,16 @@ layout: default
 - E-mail: [paul@elms.pro][email] ([PGP key][pgp])
 - iMessage: [paul@elms.pro][im]
 - Skype: [vyazovoi][skype]
-- Twitter: [vyazovoi][twitter]
+- Twitter: [elms_pro][twitter]
 - Github: [vyazovoi][github]
 - Facebook: [vyazovoi][facebook]
+- Pinterest: [paulelms][pinterest]
 - App.net: [paulelms][adn]
 - Вконтакте: [vyazovoi][vk]
 - Viber: +7 (922) 018-12-90
 - WhatsApp: +7 (922) 018-12-90
 
-[twitter]: http://twitter.com/vyazovoi "Twitter"
+[twitter]: http://twitter.com/elms_pro "Twitter"
 [email]: mailto:paul@elms.pro "E-mail"
 [im]: imessage:paul@elms.pro "E-mail"
 [pgp]: /files/64D95937.asc "PGP/GPG key"
@@ -39,3 +40,4 @@ layout: default
 [facebook]: http://facebook.com/vyazovoi/ "Facebook"
 [adn]: https://alpha.app.net/paulelms "APP.NET"
 [vk]: http://vk.com/vyazovoi "Vkontakte"
+[pinterest]: http://www.pinterest.com/paulelms/ "Pinterest"
