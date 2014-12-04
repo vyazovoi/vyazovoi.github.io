@@ -2,7 +2,7 @@
 layout: post
 title: Как удалить файл из iCloud Drive на iOS
 description: Как работать с iCloud Drive на iOS
-date: 4 дек. 2014 г. 8:05
+date: 2014-12-04 09:00
 comments: true
 categories: iCloud Drive iOS
 icon: iCloudDrive_icon.png
