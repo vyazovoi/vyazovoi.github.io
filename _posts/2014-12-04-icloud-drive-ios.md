@@ -14,4 +14,4 @@ icon: iCloudDrive_icon.png
 
 По этому адресу в настройках можно увидеть всё дерево файлов на диске и есть возможность удалять файлы.
 
-[Подробнее про Document Picker](Подробнее про Document Picker: https://dayone.me/WQjzcc)
+[Подробнее про Document Picker](https://dayone.me/WQjzcc)
