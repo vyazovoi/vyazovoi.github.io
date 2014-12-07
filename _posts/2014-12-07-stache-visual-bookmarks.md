@@ -2,7 +2,7 @@
 layout: post
 title: "Stache: визуальные закладки"
 description: Обзор программы Stache для хранения визуальных закладок с синхронизацией через iCloud, сохранением веб-архивов и скриншотов сайтов
-date: 7 дек. 2014 г. 01:44
+date: 2014-12-07 15:05
 comments: true
 categories: OSX iOS
 href: http://getstache.com
