@@ -1,13 +1,15 @@
 ---
 layout: post
 title: 1Writer 2
-description: Markdown редактор для iOS, заметки, персональная вики
-date: 2014-12-07 03:23
+description: "Markdown редактор для iOS, заметки, персональная вики"
+date: 2014-12-07 16:23
 comments: true
 categories: iOS Markdown iCloud Drive Dropbox
 href: https://itunes.apple.com/ru/app/1writer-note-taking-writing/id680469088?mt=8&at=10lbPv
 icon: 1Writer_icon.png
 ---
+
+[1Writer в App Store](https://itunes.apple.com/ru/app/1writer-note-taking-writing/id680469088?mt=8&at=10lbPv)
 
 Про 1Writer я уже писал около года назад в заметке [лучший markdown редактор на iOS]({% post_url 1writer-markdown-ios %}). Недавно эта программа так круто обновилась, что заслуживает нового обзора. Да и теперь я бы не назвал её просто markdown редактором.
 
