@@ -39,4 +39,4 @@ Notability это программа для ведения заметок в с�
 
 <a class="screenshot" href="http://monosnap.com/image/EkYksa3ws5sQei6mQzrD9pAXcubGEt.png" rel="screenshot" title="Notability версия для Mac"><img src="http://monosnap.com/image/EkYksa3ws5sQei6mQzrD9pAXcubGEt.png" alt="Notability версия для Mac" /></a>
 <a class="screenshot" href="http://monosnap.com/image/exs4W3uylhI8qJ2ipa5un7zTw5YexG.png" rel="screenshot" title="Notability на iPad"><img src="http://monosnap.com/image/exs4W3uylhI8qJ2ipa5un7zTw5YexG.png" alt="Notability на iPad" /></a>
-<a class="screenshot" href="http://take.ms/lGHux.png" rel="screenshot" title="Notability на iPhone"><img src="http://take.ms/lGHux.png" alt="Notability на iPhone" /></a>
+<a class="screenshot" href="http://monosnap.com/image/YR3cHxQn2OIJH6epCiGalj3joYLhoe.png" rel="screenshot" title="Notability на iPhone"><img src="http://monosnap.com/image/YR3cHxQn2OIJH6epCiGalj3joYLhoe.png" alt="Notability на iPhone" /></a>
