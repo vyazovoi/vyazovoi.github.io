@@ -1,0 +1,63 @@
+==================================================================
+https://keybase.io/paulelms
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://paul.elms.pro
+  * I am paulelms (https://keybase.io/paulelms) on keybase.
+  * I have a public key with fingerprint 9968 ABED 4438 3942 46F3  7F69 B440 CD88 64D9 5937
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "9968abed4438394246f37f69b440cd8864d95937",
+            "host": "keybase.io",
+            "key_id": "b440cd8864d95937",
+            "uid": "05910e7011b26f0ea428aa6cac104800",
+            "username": "paulelms"
+        },
+        "service": {
+            "hostname": "paul.elms.pro",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1419057414,
+    "expire_in": 157680000,
+    "prev": "3dcade4685d45d0947cca0dff2845d8093045f81763588d50947ebdf54492d6d",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFtkV1IFFEUx3czLRfdPtEWlwXnVdnu7N75WiL72Ic+QEz7sCi3mbl33Ml1d50d
+1zY/AiVSyQzTh9RSEiVJStSQkKI0tRIDE80eioTCoAcLCYIIuyMFPfRyL+d/fud/
+zuFcS44zWcxDe6Zr0duTnHnqyYpkOtpiSyqnpBCKUZ5yqgivfYoaLMRaWFODOuWh
+BIHlRQkjCN28W4AuyCpuTmEFCUIgI55nIRIYwc1RmZQ/FDEqiI0kRrBTDRGNBD4V
+EfU/fOlaAjACDTAHaFpysQrAInTxosjKokwDyANggBGsBcViTOiwWBrAgeIIVZlJ
+ETWqytiY2Wj9D+E0EGdYMyYgrx6SQwGS8ut62GNU6rGwgZZhyffHxCepQUQWJwVR
+rEXUUJDy0ISUddVwpSEtAIaDNMyk8PmwqmGfahAMx5IRATDa4CixdCNZRBiyPIMg
+g4AAOVkWAVIUF09iHghuABmFpznWzfA8YgwCS0hhIBRciEWUsVZJMER5SCddLCSW
+EbUwKOqlGqYqLXVm+3qT2WJKiF9n3M5kSdz896LWxA2rgfSMzy3bu9QDw63jP3pz
+LdXH2QeLPdebXwywXaMJGWLe8O72oQJv8nzNBbOjrX5+tTt/k+Mp2sf4rz4+xSY3
+XP6+s3//2Yp3g45y+XlsJS+QXffpxkv9i/XQQvTg4d657vGHqX35tpLVnmdztp5L
+o87lvKyBY2mpMO19kf1bx7f6iZwtDdW3aiXTzdOuOP/WpdmUlJ9ps7BqItZQ0eTk
+HqW/FkZO9DWeswzaq+LFxTtXavpR8eTeHCV1smN616x1Cue2t7JvrB9afbaCkXhv
+5d1sx46NM9s+3rMkzaCvJb3L6FXnwq8y+9jtpWhtc5P3yGhW55T3jGnsftvFxsnf
+=9IFU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/paulelms
+
+==================================================================
