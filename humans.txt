@@ -5,9 +5,9 @@
 
 # TECHNOLOGY
 
-    HTML5, CSS3, Jekyll, Ruby
+    HTML, CSS, JavaScript
 
 # SITE
 
     Language: Russian
-    Dev. Tools: GNU Emacs, SourceTree, iTerm2
+    Dev. Tools: Sublime Text, Tower, OS X
