@@ -41,6 +41,9 @@ exclude: README.md
 
 destination: /tmp/site-html/public
 
+gems:
+  - jekyll-sitemap
+
 # # github
 # pygments: true
 # markdown: redcarpet
