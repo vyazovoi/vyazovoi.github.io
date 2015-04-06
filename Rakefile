@@ -1,3 +1,43 @@
+task :default => :local
+
+desc 'Enter development mode.'
+task :local => :browse_local do
+  print "Auto-regenerating enabled.\n"
+  print "Development server started at http://localhost:4000/ \n"
+  print "Development mode entered.\n"
+  sh "bundle exec jekyll serve"
+end
+
+task :browse_local do
+  `open http://localhost:4000/`
+end
+
+task :new do
+  throw "No title given" unless ARGV[1]
+  title = ""
+  ARGV[1..ARGV.length - 1].each { |v| title += " #{v}" }
+  title.strip!
+  now = Time.now
+  path = "source/_posts/#{now.strftime('%F')}-#{title.downcase.gsub(/[\s\.]/, '-').gsub(/[^\w\d\-]/, '')}.markdown"
+  
+  File.open(path, "w") do |f|
+    f.puts "---"
+    f.puts "layout: post"
+    f.puts "title: #{title}"
+    f.puts "description: "
+    f.puts "keywords: "
+    f.puts "date: #{now.strftime('%F %T')}"
+    f.puts "tags:"
+    f.puts "  - "
+    f.puts "---"
+    f.puts ""
+    f.puts ""
+  end
+  
+  `open -a Byword #{path}`
+  exit
+end
+
 # Ping Pingomatic
 desc 'Ping pingomatic'
 task :pingomatic do
