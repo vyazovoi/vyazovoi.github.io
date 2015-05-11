@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<article>
+<article class="center-block">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h1 class="panel-title post-title">{{ page.title }}</h1>
         </div>
         <div class="panel-body">
             <i class="fa fa-calendar"></i> <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time> &nbsp;
-            <i class="fa fa-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif %} &nbsp;
+            <!-- <i class="fa fa-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif %} &nbsp; -->
             <i class="fa fa-tags"></i> {% for category in page.categories %}{{category}}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
 
             <div class="pull-right share-buttons hidden-xs" style="font-size: 22px; line-height: 14px;">

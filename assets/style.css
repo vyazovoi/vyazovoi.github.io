@@ -21,11 +21,19 @@ article a.screenshot>img {
     background-color: #DEDEDE;
 }*/
 
-body {
-    /*margin-bottom: 30px;
-    box-shadow: 0 4px 5px;
-    -webkit-box-shadow: 0 4px 5px;
-    -moz-box-shadow: 0 4px 5px;*/
+body, h1, h2, h3, h4, h5 {
+    font-family: 'PT Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+article {
+    max-width: 760px;
+    font-size: 17px;
+    line-height: 1.5em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
 }
 
 .nav li>a>i.fa.pull-right {
@@ -45,7 +53,8 @@ h1.post-title {
 }
 
 article a.screenshot>img {
-    max-width: 250px;
+    max-height: 250px;
+    margin: 0 auto;
 }
 
 .entry img.logo {
@@ -135,9 +144,7 @@ div.entry {
     font-family: 'PT Sans', Arial;
     font-size: 1.2em;
 }
-body, h1, h2, h3, h4, h5 {
-    font-family: 'PT Sans', Arial;
-}
+
 
 .hover-text {
     position: absolute;
@@ -175,4 +182,8 @@ body, h1, h2, h3, h4, h5 {
 
 .slider > a {
     position: relative;
+}
+
+.smaller {
+    font-size: 0.8em;
 }

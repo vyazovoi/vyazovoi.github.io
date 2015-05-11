@@ -1,38 +1,22 @@
 ---
 title: О блоге
-layout: default
+layout: page
 ---
 
 <img src="/images/photo.jpg" alt="Фото" title="Фото" class="img-responsive front-photo hidden-xs pull-right" />
 
-Меня зовут Павел Вязовой. Я родился в 1988 году, женат, есть сын. В настоящий момент работаю веб-программистом (PHP, PostgreSQL, Client-side).
+Меня зовут Павел Вязовой. Я женат, отец, веб-разработчик и маковод. Интересуюсь веб и мобильной разработкой, а также надкушенными яблоками – мой блог примерно об этом.
 
-Я 9 лет использовал GNU/Linux дома и на работе, с тех пор мой блог носит название «Unix Way». В данный момент я работаю в OS X. Чаще всего пишу заметки для продвинутых пользователей Mac. Также интересуюсь full-stack разработкой на javascript и мобильными платформами.
+Вы можете подписаться на меня в twitter: [блог][twitter] и [личный][twitter_priv], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [iMessage][im] и [Telegram][telegram].
 
-Однажды я переводил блог в Google Translate и он перевёл «Павел Вязовой» как «Paul Elms». После этого моей жене пришло в голову зарегистрировать такой домен, а я стал использовать это имя как псевдоним.
+А ещё вы можете почитать [блог моей жены][marina] и блог ["Играем с детьми"][playwithkids].
 
-Вы можете подписаться на меня в [twitter][twitter], написать мне на [email][email] ([PGP key][pgp]) или в [skype][skype]. Также я доступен в iMessage, Viber и WhatsApp по номеру телефона +7 (922) 018-12-90. Остальные контакты в конце этой страницы.
-
-Если вы по какой-либо причине хотите поблагодарить меня, то воспользуйтесь [этой страницей](/thx.html). На ней находятся различные реферальные ссылки, воспользовавшись которыми, вы окажете мне услугу.
-
-А ещё вы можете почитать <a href="http://marina.elms.pro">блог моей жены</a> (на данный момент ожидает реконструкции, пока она занята с ребёнком).
-
-Контакты:
-
-- E-mail: [paul@elms.pro][email] ([PGP key][pgp])
-- iMessage: [paul@elms.pro][im]
-- Skype: [vyazovoi][skype]
-- Twitter: [elms_pro][twitter]
-- Github: [vyazovoi][github]
-- Facebook: [vyazovoi][facebook]
-- Pinterest: [paulelms][pinterest]
-- App.net: [paulelms][adn]
-- Вконтакте: [vyazovoi][vk]
-- Viber: +7 (922) 018-12-90
-- WhatsApp: +7 (922) 018-12-90
+И ещё вот это: [Рекомендую!](/thx.html)
 
 [twitter]: http://twitter.com/elms_pro "Twitter"
+[twitter_priv]: http://twitter.com/vyazovoi "Twitter"
 [email]: mailto:paul@elms.pro "E-mail"
+[telegram]: https://telegram.me/paulelms "Telegram"
 [im]: imessage:paul@elms.pro "E-mail"
 [pgp]: /files/64D95937.asc "PGP/GPG key"
 [skype]: skype:vyazovoi?chat "Skype"
@@ -41,3 +25,6 @@ layout: default
 [adn]: https://alpha.app.net/paulelms "APP.NET"
 [vk]: http://vk.com/vyazovoi "Vkontakte"
 [pinterest]: http://www.pinterest.com/paulelms/ "Pinterest"
+[playwithkids]: http://playwithkids.ru "PlayWithKids"
+[marina]: http://marina.elms.pro "Marina Elms"
+[keybase]: https://keybase.io/paulelms
