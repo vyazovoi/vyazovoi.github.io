@@ -14,7 +14,7 @@ layout: page
 - [Fantastical][fantastical_mac] – крутой календарь и напоминания, но слишком дорогой на мой взгляд.
 - [Soulver][soulver_mac] – самый-самый калькулятор по типу блокнота.
 - [Dayone][dayone_mac] – журнал, дневник, немного заметочник. Markdown, теги, геолокация и т.д.
-- [Alternote][https://itunes.apple.com/app/id974971992?ls=1&mt=12&at=10lbPv] – красивый альтернативный клиент для Evernote.
+- [Alternote](https://itunes.apple.com/app/id974971992?ls=1&mt=12&at=10lbPv) – красивый альтернативный клиент для Evernote.
 
 #### Программы для iOS
 
