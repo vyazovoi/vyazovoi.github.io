@@ -14,7 +14,7 @@ layout: page
 - [Fantastical][fantastical_mac] – крутой календарь и напоминания, но слишком дорогой на мой взгляд.
 - [Soulver][soulver_mac] – самый-самый калькулятор по типу блокнота.
 - [Dayone][dayone_mac] – журнал, дневник, немного заметочник. Markdown, теги, геолокация и т.д.
-- [Alternote](https://itunes.apple.com/app/id974971992?ls=1&mt=12&at=10lbPv) – красивый альтернативный клиент для Evernote.
+- [Alternote](https://itunes.apple.com/app/id974971992?ls=1&mt=12&at=10lbPv&ct=irecommend) – красивый альтернативный клиент для Evernote.
 
 #### Программы для iOS
 
@@ -26,18 +26,22 @@ layout: page
 - [Calendars 5][calendars] – самый удобный календарь и напоминания для iOS. Как вариант, можно посмотреть ещё на [Fantastical][fantastical_iphone].
 - [Soulver][soulver_ios] – самый-самый калькулятор по типу блокнота.
 - [Dayone][dayone_ios] – журнал, дневник, немного заметочник. Markdown, теги, геолокация и т.д.
+- [TaskOnPaper][taskonpaper] и [Taskmator][taskmator] – современное развитие брошенного приложения Taskpaper для iOS. Также поддержка Taskpaper формата есть в [Editorial][editorial].
 
-[notability_mac]: https://itunes.apple.com/us/app/notability/id736189492?at=10lbPv "Notability"
-[notability_ios]: https://itunes.apple.com/us/app/notability-handwriting-note/id360593530?at=10lbPv "Notability"
-[scanbot]: https://itunes.apple.com/app/id834854351?at=10lbPv "Scanbot"
-[1writer]: https://itunes.apple.com/us/app/1writer/id680469088?ls=1&mt=8 "1Writer&at=10lbPv"
-[workflow]: https://itunes.apple.com/app/workflow-powerful-automation/id915249334?at=10lbPv "Workflow"
-[drafts]: https://itunes.apple.com/ru/app/drafts-4-quickly-capture-notes/id905337691?mt=8&at=10lbPv "Drafts"
-[fantastical_mac]: https://itunes.apple.com/ru/app/id975937182?mt=12&at=10lbPv "Fantastical"
-[calendars]: https://itunes.apple.com/app/calendars-5/id697927927?at=10lbPv "Calendars 5 by Readdle"
-[fantastical_iphone]: https://itunes.apple.com/ru/app/id718043190?mt=8&at=10lbPv "Fantastical"
-[fantastical_ipad]: https://itunes.apple.com/ru/app/id830708155?mt=8&at=10lbPv "Fantastical"
-[soulver_mac]: https://itunes.apple.com/us/app/soulver/id413965349?mt=12&at=10lbPv "Soulver"
-[soulver_ios]: https://itunes.apple.com/us/app/soulver-notepad-calculator/id348142037?mt=8&ls=1&at=10lbPv "Soulver"
-[dayone_mac]: https://itunes.apple.com/us/app/day-one/id422304217?mt=12&at=10lbPv "Dayone"
-[dayone_ios]: https://itunes.apple.com/us/app/day-one-journal-diary/id421706526?at=10lbPv "Dayone"
+[notability_mac]: https://itunes.apple.com/us/app/notability/id736189492?at=10lbPv&ct=irecommend "Notability"
+[notability_ios]: https://itunes.apple.com/us/app/notability-handwriting-note/id360593530?at=10lbPv&ct=irecommend "Notability"
+[scanbot]: https://itunes.apple.com/app/id834854351?at=10lbPv&ct=irecommend "Scanbot"
+[1writer]: https://itunes.apple.com/us/app/1writer/id680469088?ls=1&mt=8&at=10lbPv&ct=irecommend "1Writer"
+[workflow]: https://itunes.apple.com/app/workflow-powerful-automation/id915249334?at=10lbPv&ct=irecommend "Workflow"
+[drafts]: https://itunes.apple.com/ru/app/drafts-4-quickly-capture-notes/id905337691?mt=8&at=10lbPv&ct=irecommend "Drafts"
+[fantastical_mac]: https://itunes.apple.com/ru/app/id975937182?mt=12&at=10lbPv&ct=irecommend "Fantastical"
+[calendars]: https://itunes.apple.com/app/calendars-5/id697927927?at=10lbPv&ct=irecommend "Calendars 5 by Readdle"
+[fantastical_iphone]: https://itunes.apple.com/ru/app/id718043190?mt=8&at=10lbPv&ct=irecommend "Fantastical"
+[fantastical_ipad]: https://itunes.apple.com/ru/app/id830708155?mt=8&at=10lbPv&ct=irecommend "Fantastical"
+[soulver_mac]: https://itunes.apple.com/us/app/soulver/id413965349?mt=12&at=10lbPv&ct=irecommend "Soulver"
+[soulver_ios]: https://itunes.apple.com/us/app/soulver-notepad-calculator/id348142037?mt=8&ls=1&at=10lbPv&ct=irecommend "Soulver"
+[dayone_mac]: https://itunes.apple.com/us/app/day-one/id422304217?mt=12&at=10lbPv&ct=irecommend "Dayone"
+[dayone_ios]: https://itunes.apple.com/us/app/day-one-journal-diary/id421706526?at=10lbPv&ct=irecommend "Dayone"
+[taskonpaper]: https://itunes.apple.com/app/id989912345?ls=1&mt=8&at=10lbPv&ct=taskonpaper-irecommend "TaskOnPaper"
+[taskmator]: https://itunes.apple.com/ru/app/taskmator-taskpaper-compatible/id806250172?mt=8&at=10lbPv&ct=irecommend "Taskmator"
+[editorial]: https://itunes.apple.com/app/editorial/id673907758?at=10lbPv&ct=irecommend "Editorial"
