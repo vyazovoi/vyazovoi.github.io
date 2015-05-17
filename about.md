@@ -7,14 +7,13 @@ layout: page
 
 Меня зовут Павел Вязовой. Я женат, отец, веб-разработчик и маковод. Интересуюсь веб и мобильной разработкой, а также надкушенными яблоками.
 
-Вы можете подписаться на меня в twitter: [блог][twitter] и [личный][twitter_priv], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [iMessage][im] и [Telegram][telegram].
+Вы можете подписаться на меня в [twitter][twitter], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [iMessage][im] и [Telegram][telegram].
 
 А ещё вы можете почитать [блог моей жены][marina] и блог ["Играем с детьми"][playwithkids].
 
 И ещё вот это: [Рекомендую!](/thx.html)
 
-[twitter]: http://twitter.com/elms_pro "Twitter"
-[twitter_priv]: http://twitter.com/vyazovoi "Twitter"
+[twitter]: http://twitter.com/vyazovoi "Twitter"
 [email]: mailto:paul@elms.pro "E-mail"
 [telegram]: https://telegram.me/paulelms "Telegram"
 [im]: imessage:paul@elms.pro "E-mail"
