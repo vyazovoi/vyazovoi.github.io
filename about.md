@@ -7,7 +7,7 @@ layout: page
 
 Меня зовут Павел Вязовой. Я женат, отец, веб-разработчик и маковод. Интересуюсь веб и мобильной разработкой, а также надкушенными яблоками.
 
-Вы можете подписаться на меня в [twitter][twitter], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [iMessage][im] и [Telegram][telegram].
+Вы можете подписаться на меня в [Twitter][twitter], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [iMessage][im], [Telegram][telegram] и [Skype][skype].
 
 А ещё вы можете почитать [блог моей жены][marina] и блог ["Играем с детьми"][playwithkids].
 
