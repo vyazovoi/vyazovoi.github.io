@@ -9,9 +9,7 @@ layout: page
 
 Вы можете подписаться на меня в [Twitter][twitter], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [iMessage][im], [Telegram][telegram] и [Skype][skype].
 
-А ещё вы можете почитать [блог моей жены][marina] и блог ["Играем с детьми"][playwithkids].
-
-И ещё вот это: [Рекомендую!](/thx.html)
+А ещё вы можете почитать [блог моей жены][playwithkids] и вот это: [Рекомендую!](/thx.html)
 
 [twitter]: http://twitter.com/vyazovoi "Twitter"
 [email]: mailto:paul@elms.pro "E-mail"
