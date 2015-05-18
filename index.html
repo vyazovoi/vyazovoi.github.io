@@ -40,10 +40,10 @@ layout: default
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 slider" ontouchstart="this.classList.toggle('hover');">
 				<a href="{{ post.url }}" title="{{ post.title }}" class="thumbnail">
 					{% if post.icon %}
-						<img src="/images/articles/{{ post.icon }}" alt="{{ post.title }}" class="200x200">
+						<img src="/images/articles/{{ post.icon }}" alt="{{ post.title }}" class="plitka">
 						<span class="hover-text">{{ post.title }}</span>
 					{% else %}
-						<img src="/images/placeholder.gif" alt="{{post.title}}" width="200" height="200" class="200x200" />
+						<img src="/images/placeholder.gif" alt="{{post.title}}" width="200" height="200" class="plitka" />
 						<span class="hover-text bydefault">{{ post.title }}</span>
 					{% endif %}
 				</a>
@@ -52,7 +52,7 @@ layout: default
 		
 		<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 slider" ontouchstart="this.classList.toggle('hover');">
 			<a href="/blog" title="Все записи блога" class="thumbnail">
-				<img src="/images/more.gif" alt="Все записи блога" width="200" height="200" class="200x200" />
+				<img src="/images/more.gif" alt="Все записи блога" width="200" height="200" class="plitka" />
 			</a>
 		</div>
 		

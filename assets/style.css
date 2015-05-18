@@ -56,6 +56,13 @@ article a.screenshot>img {
     max-height: 250px;
     margin: 0 auto;
 }
+article a.bigscreen {
+    margin: 0 auto;
+}
+article a.bigscreen>img {
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 .entry img.logo {
     float: right;
@@ -97,9 +104,9 @@ div.entry {
     font-size: 1.1em;
 }
 
-.200x200 {
-    width: 200px;
-    height: 200px;
+.plitka {
+    width: 150px !important;
+    height: 150px !important;
 }
 
 .contacts-icons {
