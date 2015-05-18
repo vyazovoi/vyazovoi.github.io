@@ -106,5 +106,5 @@ end # task: pubsubhubbub
 
 #Usage: rake ping
 desc 'Notify various services about new content'
-task :ping => [:pingomatic, :sitemapgoogle, :sitemapbing, :ping, :yandex] do
+task :pingall => [:pingomatic, :sitemapgoogle, :sitemapbing, :ping, :yandex] do
 end # task :ping
