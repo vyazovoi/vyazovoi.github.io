@@ -14,7 +14,7 @@ icon: Mail_icon.png
 
 Можно отправить страницу как ссылку, как вложенный PDF, или вставить содержимое страницы в письмо. Особенно удобна возможность удалить лишнее с помощью встроенного в Safari режима чтения:
 
-<a class="screenshot" href="https://monosnap.com/file/l0mhGC0gKJqfS1ZqwI9gorVKSJy0hs.png" rel="screenshot" title="Режим чтения в Mail.app"><img src="https://monosnap.com/file/l0mhGC0gKJqfS1ZqwI9gorVKSJy0hs.png" alt="Режим чтения в Mail.app" class="center-block" /></a>
+<a class="screenshot bigscreen" href="https://monosnap.com/file/l0mhGC0gKJqfS1ZqwI9gorVKSJy0hs.png" rel="screenshot" title="Режим чтения в Mail.app"><img src="https://monosnap.com/file/l0mhGC0gKJqfS1ZqwI9gorVKSJy0hs.png" alt="Режим чтения в Mail.app" class="center-block" /></a>
 
 Я использую этот режим чаще всего для того, чтобы адресат с большей вероятностью сразу прочитал информацию, а не отложил письмо в долгий ящик из-за необходимости пройти по ссылке.
 
