@@ -37,9 +37,9 @@ Taskpaper – это программа (или формат документа)
 Про другие приложения для работы с Taskpaper я расскажу потом, а сейчас самое интересное – у меня есть **5 редимов** для [TaskOnPaper][taskonpaper], которые я раздам кому-то из тех, кто опубликует ссылку на этот пост в **Twitter**, **Facebook** или **Google+**. Для этого необходимо нажать одну из этих кнопок (или сделать репост вручную):
 
 <div class="text-center" style="margin: 30px auto;">
-    <a style="margin-right: 30px;" href="https://twitter.com/share?url=http://paul.elms.pro/blog/2015/06/26/taskpaper-ios-giveaway/&text=TaskOnPaper%20–%20новый%20Taskpaper%20для%20iOS%20(раздача%20кодов)&via=vyazovoi"><i style="font-size: 60px; color: #1CA8E5;" class="fa fa-twitter-square"></i></a>
-    <a style="margin-right: 30px;" href="https://www.facebook.com/sharer/sharer.php?u=http://paul.elms.pro/blog/2015/06/26/taskpaper-ios-giveaway/"><i style="font-size: 60px; color: #3B5A96;" class="fa fa-facebook-square"></i></a>
-    <a style="margin-right: 30px;" href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://paul.elms.pro/blog/2015/06/26/taskpaper-ios-giveaway/"><i style="font-size: 60px; color: #DB4C3F;" class="fa fa-google-plus-square"></i></a>
+    <a target="_blank" style="margin-right: 30px;" href="https://twitter.com/share?url=http://paul.elms.pro/blog/2015/06/26/taskpaper-ios-giveaway/&text=TaskOnPaper%20–%20новый%20Taskpaper%20для%20iOS%20(раздача%20кодов)&via=vyazovoi"><i style="font-size: 60px; color: #1CA8E5;" class="fa fa-twitter-square"></i></a>
+    <a target="_blank" style="margin-right: 30px;" href="https://www.facebook.com/sharer/sharer.php?u=http://paul.elms.pro/blog/2015/06/26/taskpaper-ios-giveaway/"><i style="font-size: 60px; color: #3B5A96;" class="fa fa-facebook-square"></i></a>
+    <a target="_blank" style="margin-right: 30px;" href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://paul.elms.pro/blog/2015/06/26/taskpaper-ios-giveaway/"><i style="font-size: 60px; color: #DB4C3F;" class="fa fa-google-plus-square"></i></a>
 </div>
 
 Победители будут выбраны случайным образом. **Ссылку на ваш репост нужно добавить сюда в комментарии к статье**. Результаты конкурса – предположительно 30 июня.
