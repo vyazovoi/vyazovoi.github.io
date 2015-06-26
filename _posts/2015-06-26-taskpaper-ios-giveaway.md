@@ -32,7 +32,7 @@ Taskpaper – это программа (или формат документа)
 
 Чтобы узнать немного больше о Taskpaper, предлагаю прочитать мой старый обзор: [Про TaskPaper, вводный пост]({% post_url 2013-09-25-taskpaper %}).
 
-Универсальное (iPhone + iPad) приложение TaskOnPaper можно купить в AppStore:
+Универсальное (iPhone + iPad) приложение TaskOnPaper можно купить в AppStore с временной скидкой всего за 59 рублей:
 
 <div class="text-center">
 <a href="https://itunes.apple.com/ru/app/taskonpaper-lucsie-idei-rozdautsa/id989912345?mt=8&at=10lbPv"><img src="/images/AppStore.svg" alt="Загрузить в AppStore"></a>
