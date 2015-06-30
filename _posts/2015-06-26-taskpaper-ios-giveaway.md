@@ -50,6 +50,8 @@ Taskpaper – это программа (или формат документа)
 
 Победители будут выбраны случайным образом. **Ссылку на ваш репост нужно добавить сюда в комментарии к статье**. Результаты конкурса – предположительно 30 июня.
 
+<p style="text-align: center; font-size: 26px; margin: 30px auto;">UPD: конкурс завершен!</p>
+
 *P.S. Ещё 5 редимов я раздам в своём [Twitter](http://twitter.com/vyazovoi) сразу после результатов этого конкурса ;-)*
 
 [taskonpaper]: https://itunes.apple.com/ru/app/taskonpaper-lucsie-idei-rozdautsa/id989912345?mt=8&uo=4&at=10lbPv&ct=searchlink
