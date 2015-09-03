@@ -3,6 +3,7 @@ layout: post
 title: IRC-чат
 date: 2015-08-31 14:03
 comments: true
+icon: Textual_icon.png
 ---
 
 Тут Александр Глущенко написал заметку про ["Месседжинг в IRC"](http://fluder.co/blog/2015/08/30/old-school-messaging-irc-2015/).
