@@ -13,6 +13,7 @@ Good news, everyone! Оказывается, есть хелпер для brew, 
 Установка:
 
     brew tap homebrew/services
+    brew update
 
 Всё! Использование:
 
