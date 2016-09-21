@@ -2,7 +2,7 @@
 layout: post
 title: Перетягивание тремя пальцами в macOS 10.12
 description: Для тех, кто потерял привычную опцию в Sierra
-date: '2016-09-22 02:40'
+date: '2016-09-22 02:50'
 comments: true
 categories: macOS
 href: null
