@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \"Более лучший\" Picture In Picture для Safari
+title: '"Более лучший" Picture In Picture для Safari'
 description: PiP в Safari (10.12 Sierra) по горячей клавише на любом сайте
 date: '2016-09-22 02:00'
 comments: true
