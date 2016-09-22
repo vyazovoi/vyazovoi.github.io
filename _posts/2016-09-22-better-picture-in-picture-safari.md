@@ -40,7 +40,7 @@ icon: Safari_icon.png
 
 Сам скрипт:
 
-```
+```AppleScript
 on run {input, parameters}
 
 	set pipscript to "
