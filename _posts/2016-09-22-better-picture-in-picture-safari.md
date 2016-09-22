@@ -14,7 +14,9 @@ icon: Safari_icon.png
 
 Для решения этой проблемы кто-то создал расширение для Safari: <https://github.com/arnoappenzeller/PiPifier>
 
-<a class="screenshot" href="https://monosnap.com/file/FqNabhb3zO9OMPCd6uQM34lrftB85C.png" rel="screenshot" title="PiP на VK.com" sl-processed="1"><img src="https://monosnap.com/file/FqNabhb3zO9OMPCd6uQM34lrftB85C.png" alt="PiP на VK.com" class="img-thumbnail img-responsive"></a>
+Оно переключает первое html5 видео на странице в режим «картинка в картинке», вот пример на VK (после этого можно переключаться в другие приложения, а видео останется перед глазами, размер окна с видео можно менять):
+
+<a class="screenshot" href="http://monosnap.com/file/Fveybxoj9giK2cCvRvP32jt2CbFXhm.png" rel="screenshot" title="PiP на vk.com"><img src="http://monosnap.com/file/Fveybxoj9giK2cCvRvP32jt2CbFXhm.png" alt="PiP на vk.com" /></a>
 
 Но у расширения есть свои недостатки:
 
@@ -40,7 +42,7 @@ icon: Safari_icon.png
 
 Сам скрипт:
 
-```AppleScript
+```osascript
 on run {input, parameters}
 
 	set pipscript to "
