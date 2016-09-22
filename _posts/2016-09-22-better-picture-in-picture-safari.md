@@ -8,15 +8,13 @@ categories: macOS Safari
 href: null
 icon: Safari_icon.png
 ---
-![PiP на VK]()
-
-<a class="screenshot" href="https://monosnap.com/file/FqNabhb3zO9OMPCd6uQM34lrftB85C.png" rel="screenshot" title="PiP на VK.com" sl-processed="1"><img src="https://monosnap.com/file/FqNabhb3zO9OMPCd6uQM34lrftB85C.png" alt="PiP на VK.com" class="img-thumbnail img-responsive"></a>
-
 В Safari 10 (macOS Sierra) анонсирован режим "Picture In Picture" (на самом деле был зашит уже и в Safari 9). Это когда онлайн-видео проигрывается не на странице, а в отдельном плавающем окне, которое расположено всегда поверх всех окон. Примерно так же, как и в iOS 9, только должно работать для любого html5 видео в Safari (так же замечено в iTunes).
 
 Проблема текущей реализации только вот в чем: чтобы запустить PiP на YouTube, нужно дважды вызвать контекстное меню (сначала появляется контекстное меню плеера youtube, затем системное, где уже есть нужная опция). На том же vimeo в плеер встраивается отдельная кнопка для PiP, но появляется она только после паузы и повторного воспроизведения. А на других сайтах вообще не удается запустить PiP таким способом.
 
 Для решения этой проблемы кто-то создал расширение для Safari: <https://github.com/arnoappenzeller/PiPifier>
+
+<a class="screenshot" href="https://monosnap.com/file/FqNabhb3zO9OMPCd6uQM34lrftB85C.png" rel="screenshot" title="PiP на VK.com" sl-processed="1"><img src="https://monosnap.com/file/FqNabhb3zO9OMPCd6uQM34lrftB85C.png" alt="PiP на VK.com" class="img-thumbnail img-responsive"></a>
 
 Но у расширения есть свои недостатки:
 
