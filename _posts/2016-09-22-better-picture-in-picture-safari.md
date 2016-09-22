@@ -36,7 +36,7 @@ icon: Safari_icon.png
 
 <!-- <https://cloud.mail.ru/public/gMLj/fcVwQQWfZ> -->
 
-<a class="screenshot" href="https://monosnap.com/file/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png.png" rel="screenshot" title="picture in picture hotkey"><img src="https://monosnap.com/file/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png.png" alt="picture in picture hotkey" /></a>
+<a class="screenshot" href="https://monosnap.com/file/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png" rel="screenshot" title="picture in picture hotkey"><img src="https://monosnap.com/file/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png" alt="picture in picture hotkey" /></a>
 
 Сам скрипт:
 
