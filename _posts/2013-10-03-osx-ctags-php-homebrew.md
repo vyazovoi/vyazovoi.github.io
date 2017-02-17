@@ -2,7 +2,7 @@
 layout: post
 title: "Правильная установка ctags с расширенной поддержкой PHP в OS X"
 date: 2013-10-03 15:09
-comments: true
+comments: false
 categories: OSX PHP Emacs runix
 icon: Aquamacs_icon.png
 ---
