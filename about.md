@@ -15,7 +15,7 @@ layout: page
 [email]: mailto:paul@elms.pro "E-mail"
 [telegram]: https://telegram.me/paulelms "Telegram"
 [im]: imessage:paul@elms.pro "E-mail"
-[pgp]: /files/64D95937.asc "PGP/GPG key"
+[pgp]: /files/key.asc "PGP/GPG key"
 [skype]: skype:vyazovoi?chat "Skype"
 [github]: http://github.com/vyazovoi "Github"
 [facebook]: http://facebook.com/vyazovoi/ "Facebook"
