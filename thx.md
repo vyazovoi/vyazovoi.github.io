@@ -3,6 +3,8 @@ title: Рекомендую! Сервисы, программы для Mac и iO
 layout: page
 ---
 
+<span style="font-weight: bold; font-size: 1.5em; color: red; text-decoration: underline;">Информация на странице сильно устарела, обновление на подходе</span>
+
 #### Сервисы
 
 - [DigitalOcean](https://www.digitalocean.com/?refcode=15457b2e8530) – VDS/VPS, самые лучшие, $10 вам на счет при регистрации по этой ссылке.

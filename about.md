@@ -5,13 +5,12 @@ layout: page
 
 <img src="/images/photo.jpg" alt="Фото" title="Фото" class="img-responsive front-photo hidden-xs pull-right" />
 
-Меня зовут Павел Вязовой. Я интересуюсь веб и мобильной разработкой, а также люблю автоматизировать и оптимизировать использование OS X и iOS.
+Вы можете подписаться на меня в [Twitter][twitter], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [Telegram][telegram] и [Skype][skype]. Ещё у меня есть [Mastodon][mastodon], в котором настроен кросс-постинг с Twitter.
 
-Вы можете подписаться на меня в [Twitter][twitter], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [iMessage][im], [Telegram][telegram] и [Skype][skype].
-
-А ещё вы можете почитать [блог моей жены][playwithkids] и вот это: [Рекомендую!](/thx)
+А ещё вы можете почитать [блог моей жены][playwithkids] ~~и вот это: [Рекомендую!](/thx)~~
 
 [twitter]: http://twitter.com/vyazovoi "Twitter"
+[mastodon]: https://mastodon.social/@paulelms "Mastodon"
 [email]: mailto:paul@elms.pro "E-mail"
 [telegram]: https://telegram.me/paulelms "Telegram"
 [im]: imessage:paul@elms.pro "E-mail"
