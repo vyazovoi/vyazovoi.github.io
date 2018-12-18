@@ -17,4 +17,4 @@ Windows-ноут у меня без датчика освещения, к кот
 
 Поискал ещё, и нашёл [Monitorian](https://www.microsoft.com/store/productId/9NW33J738BL0) в Windows Store. Это бесплатная минималистичная утилита, которая добавляет только регулировку яркости обоих мониторов. И выглядит она в стиле Windows 10.
 
-[Monitorian](https://i.imgur.com/fWznTzQ.png)
+<a class="screenshot" href="https://monosnap.com/image/YH2Y4K5HMZNh6zEz9UwjzzGVN79Dxv" rel="screenshot" title="Monitorian"><img src="https://monosnap.com/image/YH2Y4K5HMZNh6zEz9UwjzzGVN79Dxv" alt="Monitorian" /></a>
