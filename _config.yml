@@ -18,7 +18,8 @@ url: http://paul.elms.pro
 permalink: /blog/:year/:month/:day/:title/
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: README.md
+exclude:
+  - README.md
 
-gems:
+plugins:
   - jekyll-sitemap
