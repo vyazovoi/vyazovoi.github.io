@@ -5,7 +5,7 @@ layout: page
 
 <img src="/images/photo.jpg" alt="Фото" title="Фото" class="img-responsive front-photo hidden-xs pull-right" />
 
-Вы можете подписаться на меня в [Twitter][twitter], написать мне на [email][email] ([PGP key][pgp]). Также я доступен в [Telegram][telegram] и [Skype][skype]. Ещё у меня есть [Mastodon][mastodon], в котором настроен кросс-постинг с Twitter.
+Вы можете написать мне [E-mail][email] ([PGP key][pgp]). Также я доступен в [Telegram][telegram] и [Twitter][twitter].
 
 А ещё вы можете почитать [блог моей жены][playwithkids] ~~и вот это: [Рекомендую!](/thx)~~
 
@@ -13,6 +13,7 @@ layout: page
 [mastodon]: https://mastodon.social/@paulelms "Mastodon"
 [email]: mailto:paul@elms.pro "E-mail"
 [telegram]: https://telegram.me/paulelms "Telegram"
+[discord]:  "Discord"
 [im]: imessage:paul@elms.pro "E-mail"
 [pgp]: /files/key.asc "PGP/GPG key"
 [skype]: skype:vyazovoi?chat "Skype"
