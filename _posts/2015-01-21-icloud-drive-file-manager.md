@@ -17,6 +17,6 @@ icon: iCloudDrive_icon.png
 Интересно, можно ли реализовать файл-менеджер для диска и пропустит ли
 его Apple в AppStore.
 
-<a class="screenshot" href="http://monosnap.com/file/OteFPoKB5JNUaA4YsEzgRGobxaEVgv.png" rel="screenshot"><img src="http://monosnap.com/file/OteFPoKB5JNUaA4YsEzgRGobxaEVgv.png" /></a>
+<a class="screenshot" href="http://monosnap.com/image/OteFPoKB5JNUaA4YsEzgRGobxaEVgv.png" rel="screenshot"><img src="http://monosnap.com/image/OteFPoKB5JNUaA4YsEzgRGobxaEVgv.png" /></a>
 
 **UPD:** кнопка удалить есть у изображений, но её нет при просмотре, например, pdf-файлов. Но, тем не менее, сама возможность у приложения на iOS удалить файл из корня iCloud Drive радует.

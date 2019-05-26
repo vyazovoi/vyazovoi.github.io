@@ -16,7 +16,7 @@ icon: Safari_icon.png
 
 Оно переключает первое html5 видео на странице в режим «картинка в картинке», вот пример на VK (после этого можно переключаться в другие приложения, а видео останется перед глазами, размер окна с видео можно менять):
 
-<a class="screenshot" href="http://monosnap.com/file/Fveybxoj9giK2cCvRvP32jt2CbFXhm.png" rel="screenshot" title="PiP на vk.com"><img src="http://monosnap.com/file/Fveybxoj9giK2cCvRvP32jt2CbFXhm.png" alt="PiP на vk.com" /></a>
+<a class="screenshot" href="http://monosnap.com/image/Fveybxoj9giK2cCvRvP32jt2CbFXhm.png" rel="screenshot" title="PiP на vk.com"><img src="http://monosnap.com/image/Fveybxoj9giK2cCvRvP32jt2CbFXhm.png" alt="PiP на vk.com" /></a>
 
 Но у расширения есть свои недостатки:
 
@@ -38,7 +38,7 @@ icon: Safari_icon.png
 
 <!-- <https://cloud.mail.ru/public/gMLj/fcVwQQWfZ> -->
 
-<a class="screenshot" href="https://monosnap.com/file/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png" rel="screenshot" title="picture in picture hotkey"><img src="https://monosnap.com/file/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png" alt="picture in picture hotkey" /></a>
+<a class="screenshot" href="https://monosnap.com/image/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png" rel="screenshot" title="picture in picture hotkey"><img src="https://monosnap.com/image/Nm4i6aO8kfBWJTPVY4P5cIm1iHvVFs.png" alt="picture in picture hotkey" /></a>
 
 Сам скрипт:
 

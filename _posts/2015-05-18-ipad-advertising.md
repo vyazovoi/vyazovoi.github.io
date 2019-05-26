@@ -19,14 +19,14 @@ icon: Creative_icon.png
 
 Накидайте похожих крутых дизайнов, кому не лень? Упор на креативность, создание контента, творчество.
 
-<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/learning/" title="Learning with iPad"><img src="https://monosnap.com/file/q4DL7rwP9CsxYXPS8LdAatXKJ7Lgze.png" alt="Learning with iPad" /></a>
+<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/learning/" title="Learning with iPad"><img src="https://monosnap.com/image/q4DL7rwP9CsxYXPS8LdAatXKJ7Lgze.png" alt="Learning with iPad" /></a>
 
-<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/cooking/" title="Cooking with iPad"><img src="https://monosnap.com/file/8HGrdWJV1YeYgWJgRxuy5Zjb7o6oKP.png" alt="Cooking with iPad" /></a>
+<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/cooking/" title="Cooking with iPad"><img src="https://monosnap.com/image/8HGrdWJV1YeYgWJgRxuy5Zjb7o6oKP.png" alt="Cooking with iPad" /></a>
 
-<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/redecorating/" title="Redecorating with iPad"><img src="https://monosnap.com/file/pFAwr0JUXnibxN5nHeGqw0MKctfRNz.png" alt="Redecorating with iPad" /></a>
+<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/redecorating/" title="Redecorating with iPad"><img src="https://monosnap.com/image/pFAwr0JUXnibxN5nHeGqw0MKctfRNz.png" alt="Redecorating with iPad" /></a>
 
-<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/traveling/" title="Traveling with iPad"><img src="https://monosnap.com/file/MVA4RPoU7Zxnbfc7t7G1cFFSRsZfpl.png" alt="Traveling with iPad" /></a>
+<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/traveling/" title="Traveling with iPad"><img src="https://monosnap.com/image/MVA4RPoU7Zxnbfc7t7G1cFFSRsZfpl.png" alt="Traveling with iPad" /></a>
 
-<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/small-business/" title="Small Business with iPad"><img src="https://monosnap.com/file/PhZ72t61ePnG4SkVN6bW9R5ULVjfNN.png" alt="Small Business with iPad" /></a>
+<a target="_blank" class="bigscreen" href="http://www.apple.com/ipad/change-everything/small-business/" title="Small Business with iPad"><img src="https://monosnap.com/image/PhZ72t61ePnG4SkVN6bW9R5ULVjfNN.png" alt="Small Business with iPad" /></a>
 
-<a target="_blank" class="bigscreen" href="http://www.gingerlabs.com" title="Notability"><img src="https://monosnap.com/file/dXzI2XuSwX9Gr3TsdbmRrgcnyLiLgt.png" alt="Notability" /></a>
+<a target="_blank" class="bigscreen" href="http://www.gingerlabs.com" title="Notability"><img src="https://monosnap.com/image/dXzI2XuSwX9Gr3TsdbmRrgcnyLiLgt.png" alt="Notability" /></a>

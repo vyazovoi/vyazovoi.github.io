@@ -15,4 +15,4 @@ icon: Sierra_icon.png
 
 Там и другие опции есть, может что-то другое подойдет больше:
 
-![Настройки универсального доступа](https://monosnap.com/file/kLfD9d7jadhUhXnaWePOpJ5rfLu4O5.png)
+![Настройки универсального доступа](https://monosnap.com/image/kLfD9d7jadhUhXnaWePOpJ5rfLu4O5.png)

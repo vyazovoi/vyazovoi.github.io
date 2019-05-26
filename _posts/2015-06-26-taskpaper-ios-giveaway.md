@@ -10,14 +10,14 @@ icon: TaskOnPaper_icon.png
 
 Приятная новость для любителей простых текстовых форматов (Taskpaper, Markdown и других) – у меня есть некоторое количество редимов на программу [TaskOnPaper][taskonpaper], которая является дальнейшим развитием брошенного разработчиком Taskpaper для iOS. Вот так выглядит программа на iPad:
 
-<a class="screenshot" href="https://monosnap.com/file/KvkTLDblrsp1Ml17FhEWq26g1oLFxc.png" rel="screenshot" title="TaskOnPaper iPad"><img src="https://monosnap.com/file/KvkTLDblrsp1Ml17FhEWq26g1oLFxc.png" alt="TaskOnPaper iPad" /></a>
+<a class="screenshot" href="https://monosnap.com/image/KvkTLDblrsp1Ml17FhEWq26g1oLFxc.png" rel="screenshot" title="TaskOnPaper iPad"><img src="https://monosnap.com/image/KvkTLDblrsp1Ml17FhEWq26g1oLFxc.png" alt="TaskOnPaper iPad" /></a>
 
 Taskpaper – это программа (или формат документа), которая позволяет работать со списком задач, как с листком бумаги. Т.е. сам файл вы можете набирать в чём угодно, а программа визуализирует и фильтрует его содержимое. Но в самой программе также встроен специализированный редактор. Сам же документ представляет собой приятный глазу текст (отсюда множество возможностей автоматизации, о которых я упомяну в конце обзора).
 
-<a class="screenshot" href="https://monosnap.com/file/LasBt9b12fVyOLK6JJ3r0yODqK4Cna.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/file/LasBt9b12fVyOLK6JJ3r0yODqK4Cna.png" alt="TaskOnPaper iPhone" /></a>
-<a class="screenshot" href="https://monosnap.com/file/g3p6vVzfN1pqTzxjDkiYEERaLESJhX.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/file/g3p6vVzfN1pqTzxjDkiYEERaLESJhX.png" alt="TaskOnPaper iPhone" /></a>
-<a class="screenshot" href="https://monosnap.com/file/WYW4OmU7dx8wtTDy9rqoHZfJx4IqVc.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/file/WYW4OmU7dx8wtTDy9rqoHZfJx4IqVc.png" alt="TaskOnPaper iPhone" /></a>
-<a class="screenshot" href="https://monosnap.com/file/rLfw1gIP76mODqPclTaLn9fCLq5wbC.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/file/rLfw1gIP76mODqPclTaLn9fCLq5wbC.png" alt="TaskOnPaper iPhone" /></a>
+<a class="screenshot" href="https://monosnap.com/image/LasBt9b12fVyOLK6JJ3r0yODqK4Cna.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/image/LasBt9b12fVyOLK6JJ3r0yODqK4Cna.png" alt="TaskOnPaper iPhone" /></a>
+<a class="screenshot" href="https://monosnap.com/image/g3p6vVzfN1pqTzxjDkiYEERaLESJhX.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/image/g3p6vVzfN1pqTzxjDkiYEERaLESJhX.png" alt="TaskOnPaper iPhone" /></a>
+<a class="screenshot" href="https://monosnap.com/image/WYW4OmU7dx8wtTDy9rqoHZfJx4IqVc.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/image/WYW4OmU7dx8wtTDy9rqoHZfJx4IqVc.png" alt="TaskOnPaper iPhone" /></a>
+<a class="screenshot" href="https://monosnap.com/image/rLfw1gIP76mODqPclTaLn9fCLq5wbC.png" rel="screenshot" title="TaskOnPaper iPhone"><img src="https://monosnap.com/image/rLfw1gIP76mODqPclTaLn9fCLq5wbC.png" alt="TaskOnPaper iPhone" /></a>
 
 Автор Taskpaper решил отказаться от поддержки iOS приложения, поэтому передал исходники заинтересованным разработчикам. Приложение [TaskOnPaper][taskonpaper] является его прямым продолжением, новый автор обещает активную поддержку и появление новых фич.
 
