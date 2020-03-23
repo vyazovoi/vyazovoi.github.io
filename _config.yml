@@ -14,7 +14,7 @@ author_email: paul@elms.pro
 # for example you want links like /categories/category1 instead of /category1
 category_dir: blog/categories
 
-url: http://paul.elms.pro
+url: https://paul.elms.pro
 permalink: /blog/:year/:month/:day/:title/
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
