@@ -5,7 +5,7 @@ layout: page
 
 <img src="/images/photo.jpg" alt="Фото" title="Фото" class="img-responsive front-photo hidden-xs pull-right" />
 
-Вы можете написать мне: <div class="mail">paul</div> ([PGP key][pgp]). Также я доступен в [Telegram][telegram] и [Mastodon][mastodon].
+Для связи: [Telegram][telegram].
 
 [Микроблог][unixway]
 
