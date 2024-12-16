@@ -1,7 +1,7 @@
 # TEAM
 
-    Pavel Vyazovoi aka Paul Elms -- @vyazovoi
-    Marina Elms -- @marina_elms
+    Pavel Vyazovoy aka Paul Elms -- @paulelms
+    Marina Elms
 
 # TECHNOLOGY
 
@@ -10,4 +10,3 @@
 # SITE
 
     Language: Russian
-    Dev. Tools: Sublime Text, Tower, OS X

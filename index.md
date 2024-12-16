@@ -1,15 +1,13 @@
 ---
-title: О блоге
-layout: page
+title: Павел Вязовой
+layout: minimal
 ---
 
-<img src="/images/photo.jpg" alt="Фото" title="Фото" class="img-responsive front-photo hidden-xs pull-right" />
-
-Вы можете написать мне: <div class="mail">paul</div> ([PGP key][pgp]). Также я доступен в [Telegram][telegram] и [Mastodon][mastodon].
+Написать мне: <span class="hiddenmail">paul</span> ([PGP key][pgp]). Также я доступен в [Telegram][telegram] и [Mastodon][mastodon].
 
 [Микроблог][unixway]
 
-[Оставлю это здесь (блог жены)][playwithkids]
+- [Архив старого блога](/blog/)
 
 [mastodon]: https://fosstodon.org/@paulelms "Mastodon"
 [telegram]: https://telegram.me/paulelms "Telegram"

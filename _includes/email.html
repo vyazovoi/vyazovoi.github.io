@@ -1,0 +1,15 @@
+<style>
+    .hiddenmail::after {
+        content: "@elms.pro";
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".hiddenmail").forEach(function (element) {
+            element.addEventListener("click", function () {
+                window.location.href = "mailto:" + element.textContent + "@elms.pro";
+            });
+        });
+    });
+</script>
