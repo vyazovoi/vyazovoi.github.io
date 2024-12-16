@@ -3,10 +3,11 @@ title: Павел Вязовой
 layout: minimal
 ---
 
-Написать мне: <span class="hiddenmail">paul</span> ([PGP key][pgp]). Также я доступен в [Telegram][telegram] и [Mastodon][mastodon].
+Написать мне: <span class="hiddenmail">paul</span> ([PGP key][pgp]).
 
-[Микроблог][unixway]
-
+- [Telegram][telegram]
+- [Микроблог][unixway]
+- [Mastodon][mastodon]
 - [Архив старого блога](/blog/)
 
 [mastodon]: https://fosstodon.org/@paulelms "Mastodon"
